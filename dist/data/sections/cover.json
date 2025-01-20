@@ -4,28 +4,25 @@
       "title": "Welcome!",
       "title_menu": "About me",
       "title_long_prefix": "Hello...",
-      "title_long": "I'm **Mark Choi!**"
+      "title_long": "I'm **Zhu Jiyi!**"
     },
-
-    "es": {
-      "title": "¡Saludos!",
-      "title_menu": "Sobre mí",
-      "title_long_prefix": "Hola...",
-      "title_long": "Soy **Marco Choi!**"
+    "zh": {
+      "title": "欢迎!",
+      "title_menu": "关于我",
+      "title_long_prefix": "你好...",
+      "title_long": "我是 **朱继熠**！"
     },
-
-    "fr": {
-      "title": "Salut !",
-      "title_menu": "À propos",
-      "title_long_prefix": "Salut...",
-      "title_long": "Je suis **Marc Choi!**"
+    "ja": {
+      "title": "ようこそ！",
+      "title_menu": "私について",
+      "title_long_prefix": "こんにちは...",
+      "title_long": "私は **シュ ケイイ** です！"
     },
-
     "ko": {
       "title": "환영합니다!",
       "title_menu": "소개",
       "title_long_prefix": "안녕하세요...",
-      "title_long": "저는 **마크 최** 입니다!"
+      "title_long": "저는 **주계일** 입니다!"
     }
   },
 
@@ -38,38 +35,98 @@
         "format": "inline"
       },
       "locales": {
-        "en": {},
-        "es": {},
-        "fr": {},
-        "ko": {}
+        "en": {
+          "title": "Contact Information"
+        },
+        "zh": {
+          "title": "联系信息"
+        },
+        "ja": {
+          "title": "連絡先情報"
+        },
+        "ko": {
+          "title": "연락처 정보"
+        }
       },
-
       "items": [
         {
-          "value": "Cupertino – CA",
+          "value": null,
           "links": [{ "href": null }],
           "icon": {
             "img": null,
             "fa": "fa-solid fa-city",
             "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": { "info": "Tokyo – Japan" },
+            "zh": { "info": "东京 – 日本" },
+            "ja": { "info": "東京 – 日本" },
+            "ko": { "info": "도쿄 – 일본" }
           }
         },
         {
-          "value": "mark.choi@dev.com",
-          "links": [{ "href": "mailto:mark.choi@dev.com" }],
+          "value": null,
+          "links": [
+            {
+              "href": null
+            }
+          ],
           "icon": {
             "img": null,
             "fa": "fa-solid fa-envelope",
-            "faColors": { "bg": null, "fill": null }
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "locales": {
+            "en": {
+              "info": "vickerszhu@gmail.com",
+              "links": [
+                {
+                  "href": "mailto:vickerszhu@gmail.com"
+                }
+              ]
+            },
+            "zh": {
+              "info": "vickerszhu@gmail.com",
+              "links": [
+                {
+                  "href": "mailto:vickerszhu@gmail.com"
+                }
+              ]
+            },
+            "ja": {
+              "info": "vickerszhu@yahoo.co.jp",
+              "links": [
+                {
+                  "href": "mailto:vickerszhu@yahoo.co.jp"
+                }
+              ]
+            },
+            "ko": {
+              "info": "vickerszhu@gmail.com",
+              "links": [
+                {
+                  "href": "mailto:vickerszhu@gmail.com"
+                }
+              ]
+            }
           }
         },
         {
-          "value": "@ryanbalieiro",
-          "links": [{ "href": "https://github.com/ryanbalieiro" }],
+          "value": null,
+          "links": [{ "href": "https://github.com/Vickers-Zhu" }],
           "icon": {
             "img": null,
             "fa": "fa-brands fa-github",
             "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": { "info": "@Vickers-Zhu" },
+            "zh": { "info": "@Vickers-Zhu" },
+            "ja": { "info": "@Vickers-Zhu" },
+            "ko": { "info": "@Vickers-Zhu" }
           }
         }
       ]
@@ -81,8 +138,8 @@
       "config": {},
       "locales": {
         "en": { "title": "**A little bit** about me..." },
-        "es": { "title": "**Un poco** sobre mí..." },
-        "fr": { "title": "**Un peu** à propos de moi..." },
+        "zh": { "title": "**一点** 关于我..." },
+        "ja": { "title": "**少し** 私について..." },
         "ko": { "title": "저에 **대해 조금**..." }
       },
 
@@ -95,16 +152,16 @@
           },
           "locales": {
             "en": {
-              "text": "<p>I’m a PHP developer with <b>over a decade</b> of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with C++, C#, Go, and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>with you!</b>"
+              "text": "<p>I am a highly skilled and innovative application developer with extensive expertise in JavaScript, Python, C#, and Swift. Currently, I am pursuing a master’s degree at Tohoku University’s Graduate School of Information Science, specializing in front-end development, AI integration, and web-based platform engineering. My professional experience includes contributions to cutting-edge projects at SenseTime, where I utilized technologies like GSAP and PIXI.js to optimize interactive visualizations, and at Huawei, where I enhanced internal digital platforms across Northeast Europe.</p><p>My proficiency in JavaScript frameworks and libraries, combined with my Python-based AI solutions and versatile development experience in C# and Swift, has enabled me to deliver impactful solutions, such as job recommendation tools using RAG models and personalized language learning applications. Alongside my technical expertise, I bring strong international collaboration skills, multilingual fluency, and the prestigious Fundamental Information Technology Engineer qualification issued in Japan. Driven by creativity and a passion for innovation, I am dedicated to advancing AI, web development, and application design to create meaningful technological solutions.</p>"
             },
-            "es": {
-              "text": "<p>Soy un desarrollador de PHP con <b>más de una década</b> de experiencia, especializado en desarrollo backend y con algo de experiencia en frontend. También tengo experiencia práctica en entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos.</p><p>¡Espero con interés colaborar <b>contigo!</b></p>"
+            "zh": {
+              "text": "<p>我是一名技术高超且富有创新精神的应用开发者，精通 JavaScript、Python、C# 和 Swift。目前，我正在东北大学信息科学研究科攻读硕士学位，专注于前端开发、AI 集成和基于 Web 的平台工程。我的职业经历包括在商汤科技参与尖端项目，利用 GSAP 和 PIXI.js 等技术优化交互式可视化，以及在华为提升东北欧内部数字平台的性能。</p><p>我熟练掌握 JavaScript 框架和库，并结合基于 Python 的 AI 解决方案以及在 C# 和 Swift 领域的多样化开发经验，成功交付了多项影响深远的解决方案，如使用 RAG 模型的职位推荐工具和个性化语言学习应用程序。除了技术专长，我还拥有出色的国际协作能力、多语言流利度，以及获得日本颁发的权威信息技术工程师资格。凭借对创造力和创新的热情，我致力于推动 AI、Web 开发和应用设计的发展，创造有意义的技术解决方案。</p>"
             },
-            "fr": {
-              "text": "<p>Je suis développeur PHP avec <b>plus d'une décennie</b> d'expérience, spécialisé dans le développement backend avec un peu de travail en frontend également. J'ai aussi de l'expérience en production avec les technologies C++, C#, Go et Python.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"
+            "ja": {
+              "text": "<p>私は、高い技術力と革新的なアイデアを持つアプリケーション開発者であり、JavaScript、Python、C#、Swift における豊富な専門知識を有しています。現在、東北大学大学院情報科学研究科にて修士課程を履修中で、フロントエンド開発、AI 統合、および Web プラットフォームエンジニアリングを専門としています。私の職務経験には、SenseTime での最先端プロジェクトへの参加があり、GSAP や PIXI.js を使用してインタラクティブなビジュアライゼーションを最適化しました。また、Huawei では、北東ヨーロッパ全域での社内デジタルプラットフォームの性能を向上させました。</p><p>私は JavaScript フレームワークやライブラリに精通し、Python ベースの AI ソリューションと C# および Swift を使用した多様な開発経験を組み合わせることで、RAG モデルを使用した職務推薦ツールや、個別化された言語学習アプリケーションなどの影響力あるソリューションを提供しました。さらに、国際的なコラボレーションスキル、多言語の流暢さ、そして日本で認定された基本情報技術者試験資格を持っています。私は創造性と革新への情熱を持ち、AI、Web 開発、およびアプリケーション設計の進展に取り組み、有意義な技術的ソリューションの実現に尽力しています。</p>"
             },
             "ko": {
-              "text": "<p>저는 백엔드 개발을 전문으로 하고, 프론트엔드 작업도 일부 수행해온 <b>10년 이상의</b> 경력을 가진 PHP 개발자입니다. 또한 C++, C#, Go, Python 스택을 사용한 프로덕션 경험도 있습니다.</p><p>이 다양한 배경 덕분에 프로젝트의 다양한 요구에 유연하게 대처할 수 있습니다.</p><p><b>당신과 협업</b>하기를 기대하고 있습니다!</p>"
+              "text": "<p>저는 JavaScript, Python, C#, Swift에 대한 풍부한 경험을 보유한 애플리케이션 개발자이며, AI 통합, 프론트엔드 개발 및 웹 기반 플랫폼 엔지니어링을 전문으로 하고 있습니다. 현재, 저는 일본 동북대학교 정보과학 대학원에서 석사 과정을 밟고 있으며, SenseTime에서 GSAP 및 PIXI.js와 같은 기술을 활용하여 상호작용형 시각화를 최적화한 최첨단 프로젝트에 기여했습니다. 또한, Huawei에서는 북동 유럽 전역에서 내부 디지털 플랫폼을 개선했습니다.</p><p>저는 JavaScript 프레임워크 및 라이브러리에 능숙하며, Python 기반의 AI 솔루션과 C# 및 Swift에서의 다양한 개발 경험을 결합하여, RAG 모델을 사용하는 직업 추천 도구 및 개인화된 언어 학습 애플리케이션과 같은 효과적인 솔루션을 제공했습니다. 기술적 전문성과 더불어, 저는 강력한 국제 협력 능력, 다국어 유창성, 일본에서 인정받은 기본 정보 기술 엔지니어 자격증을 보유하고 있습니다. 창의성과 혁신에 대한 열정을 바탕으로, AI, 웹 개발, 애플리케이션 설계의 발전을 추진하고 의미 있는 기술 솔루션을 창출하는 데 전념하고 있습니다.</p>"
             }
           }
         }
@@ -254,161 +311,156 @@
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-guitar",
+            "fa": "fa-solid fa-headphones",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "Playing guitar",
-              "info": "Exploring different genres and improving my skills."
+              "title": "DJ",
+              "info": "Exploring different music genres and mixing tracks."
             },
-            "es": {
-              "title": "Tocar la guitarra",
-              "info": "Explorando diferentes géneros y mejorando mis habilidades."
+            "zh": {
+              "title": "DJ",
+              "info": "探索不同的音乐风格并混音。"
             },
-            "fr": {
-              "title": "Jouer de la guitare",
-              "info": "Explorer différents genres et améliorer mes compétences."
+            "ja": {
+              "title": "DJ",
+              "info": "さまざまな音楽ジャンルを探求し、トラックをミックスする。"
             },
             "ko": {
-              "title": "기타 연주",
-              "info": "다양한 장르를 탐험하고 기술을 향상시키기."
+              "title": "DJ",
+              "info": "다양한 음악 장르를 탐색하고 트랙을 믹싱하기."
             }
           }
         },
-
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-video",
+            "fa": "fa-solid fa-music",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "AI video editing",
-              "info": "Learning to use AI tools to enhance my videos."
+              "title": "Music production",
+              "info": "Creating and producing original music tracks."
             },
-            "es": {
-              "title": "Edición de video con IA",
-              "info": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+            "zh": {
+              "title": "音乐制作",
+              "info": "创作和制作原创音乐。"
             },
-            "fr": {
-              "title": "Montage vidéo avec IA",
-              "info": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+            "ja": {
+              "title": "音楽制作",
+              "info": "オリジナルの音楽トラックを作成および制作する。"
             },
             "ko": {
-              "title": "AI 영상 편집",
-              "info": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
+              "title": "음악 제작",
+              "info": "오리지널 음악 트랙을 만들고 제작하기."
             }
           }
         },
-
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-paint-brush",
+            "fa": "fa-solid fa-music",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "Illustration",
-              "info": "Practicing digital art and exploring new styles."
+              "title": "Play the piano",
+              "info": "Practicing and performing piano pieces."
             },
-            "es": {
-              "title": "Ilustración",
-              "info": "Practicando arte digital y explorando nuevos estilos."
+            "zh": {
+              "title": "弹钢琴",
+              "info": "练习和演奏钢琴曲。"
             },
-            "fr": {
-              "title": "Illustration",
-              "info": "Pratiquer l'art numérique et explorer de nouveaux styles."
+            "ja": {
+              "title": "ピアノを弾く",
+              "info": "ピアノ曲を練習し、演奏する。"
             },
             "ko": {
-              "title": "일러스트레이션",
-              "info": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
+              "title": "피아노 연주",
+              "info": "피아노 곡을 연습하고 연주하기."
             }
           }
         },
-
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-chart-line",
+            "fa": "fa-solid fa-bicycle",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "Investing",
-              "info": "Learning the basics of stocks and personal finance."
+              "title": "Cycling",
+              "info": "Exploring new trails and staying fit."
             },
-            "es": {
-              "title": "Invertir",
-              "info": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
+            "zh": {
+              "title": "骑自行车",
+              "info": "探索新路线并保持健康。"
             },
-            "fr": {
-              "title": "Investir",
-              "info": "Apprendre les bases des actions et des finances personnelles."
+            "ja": {
+              "title": "サイクリング",
+              "info": "新しいトレイルを探索し、健康を維持する。"
             },
             "ko": {
-              "title": "투자",
-              "info": "주식과 개인 재정의 기초 배우기."
+              "title": "자전거 타기",
+              "info": "새로운 길을 탐험하고 건강 유지하기."
             }
           }
         },
-
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-pencil-alt",
+            "fa": "fa-solid fa-code",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "UX design",
-              "info": "Studying user experience principles."
+              "title": "Coding",
+              "info": "Developing software and learning new technologies."
             },
-            "es": {
-              "title": "Diseño UX",
-              "info": "Estudiando los principios de la experiencia del usuario."
+            "zh": {
+              "title": "编程",
+              "info": "开发软件并学习新技术。"
             },
-            "fr": {
-              "title": "Conception UX",
-              "info": "Étudier les principes de l'expérience utilisateur."
+            "ja": {
+              "title": "コーディング",
+              "info": "ソフトウェアを開発し、新しい技術を学ぶ。"
             },
             "ko": {
-              "title": "UX 디자인",
-              "info": "사용자 경험 원칙을 공부하기."
+              "title": "코딩",
+              "info": "소프트웨어 개발 및 새로운 기술 배우기."
             }
           }
         },
-
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-camera-retro",
+            "fa": "fa-solid fa-swimmer",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "Photo editing",
-              "info": "Enhancing photos through creative editing techniques."
+              "title": "Swimming",
+              "info": "Enjoying swimming and improving techniques."
             },
-            "es": {
-              "title": "Edición de fotos",
-              "info": "Mejorando fotos a través de técnicas creativas de edición."
+            "zh": {
+              "title": "游泳",
+              "info": "享受游泳并提高技术。"
             },
-            "fr": {
-              "title": "Retouche photo",
-              "info": "Améliorer des photos avec des techniques de montage créatives."
+            "ja": {
+              "title": "水泳",
+              "info": "水泳を楽しみ、技術を向上させる。"
             },
             "ko": {
-              "title": "사진 편집",
-              "info": "창의적인 편집 기술을 통해 사진을 향상시키기."
+              "title": "수영",
+              "info": "수영을 즐기고 기술 향상하기."
             }
           }
         }
