@@ -72,13 +72,17 @@ export const useParser = () => {
       const locales = item["locales"];
       const icon = item["icon"];
       const dates = item["dates"];
-      const links = item["links"];
+      let links = item["links"];
+      if (links && links.some((link) => link.href === null)) {
+        links = getTranslation(locales, "links", true) || [];
+      }
       const media = item["media"];
 
       const parsedItem = {};
       parsedItem.title = utils.parseJsonText(getTranslation(locales, "title"));
       parsedItem.info = utils.parseJsonText(
-        getTranslation(locales, "info", true)
+        getTranslation(locales, "info"),
+        true
       );
       parsedItem.text = utils.parseJsonText(
         getTranslation(locales, "text", true)
@@ -139,8 +143,7 @@ export const useParser = () => {
       parsedItem.firstLink = parsedItem.links?.length
         ? parsedItem.links[0]
         : null;
-      parsedItem.value = getTranslation(item.locales, "value") || item["value"];
-
+      parsedItem.value = item["value"];
       return parsedItem;
     });
   };

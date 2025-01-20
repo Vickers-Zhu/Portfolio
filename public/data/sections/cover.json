@@ -48,10 +48,9 @@
           "title": "연락처 정보"
         }
       },
-
       "items": [
         {
-          "value": "Tokyo – Japan",
+          "value": null,
           "links": [{ "href": null }],
           "icon": {
             "img": null,
@@ -59,29 +58,64 @@
             "faColors": { "bg": null, "fill": null }
           },
           "locales": {
-            "en": { "value": "Tokyo – Japan" },
-            "zh": { "value": "东京 – 日本" },
-            "ja": { "value": "東京 – 日本" },
-            "ko": { "value": "도쿄 – 일본" }
+            "en": { "info": "Tokyo – Japan" },
+            "zh": { "info": "东京 – 日本" },
+            "ja": { "info": "東京 – 日本" },
+            "ko": { "info": "도쿄 – 일본" }
           }
         },
         {
-          "value": "vickerszhu@gmail.com",
-          "links": [{ "href": "mailto:vickerszhu@gmail.com" }],
+          "value": null,
+          "links": [
+            {
+              "href": null
+            }
+          ],
           "icon": {
             "img": null,
             "fa": "fa-solid fa-envelope",
-            "faColors": { "bg": null, "fill": null }
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
           },
           "locales": {
-            "en": { "value": "vickerszhu@gmail.com" },
-            "zh": { "value": "vickerszhu@gmail.com" },
-            "ja": { "value": "vickerszhu@yahoo.co.jp" },
-            "ko": { "value": "vickerszhu@gmail.com" }
+            "en": {
+              "info": "vickerszhu@gmail.com",
+              "links": [
+                {
+                  "href": "mailto:vickerszhu@gmail.com"
+                }
+              ]
+            },
+            "zh": {
+              "info": "vickerszhu@gmail.com",
+              "links": [
+                {
+                  "href": "mailto:vickerszhu@gmail.com"
+                }
+              ]
+            },
+            "ja": {
+              "info": "vickerszhu@yahoo.co.jp",
+              "links": [
+                {
+                  "href": "mailto:vickerszhu@yahoo.co.jp"
+                }
+              ]
+            },
+            "ko": {
+              "info": "vickerszhu@gmail.com",
+              "links": [
+                {
+                  "href": "mailto:vickerszhu@gmail.com"
+                }
+              ]
+            }
           }
         },
         {
-          "value": "@Vickers-Zhu",
+          "value": null,
           "links": [{ "href": "https://github.com/Vickers-Zhu" }],
           "icon": {
             "img": null,
@@ -89,10 +123,10 @@
             "faColors": { "bg": null, "fill": null }
           },
           "locales": {
-            "en": { "value": "@Vickers-Zhu" },
-            "zh": { "value": "@Vickers-Zhu" },
-            "ja": { "value": "@Vickers-Zhu" },
-            "ko": { "value": "@Vickers-Zhu" }
+            "en": { "info": "@Vickers-Zhu" },
+            "zh": { "info": "@Vickers-Zhu" },
+            "ja": { "info": "@Vickers-Zhu" },
+            "ko": { "info": "@Vickers-Zhu" }
           }
         }
       ]
@@ -277,161 +311,156 @@
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-guitar",
+            "fa": "fa-solid fa-headphones",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "Playing guitar",
-              "info": "Exploring different genres and improving my skills."
+              "title": "DJ",
+              "info": "Exploring different music genres and mixing tracks."
             },
-            "es": {
-              "title": "Tocar la guitarra",
-              "info": "Explorando diferentes géneros y mejorando mis habilidades."
+            "zh": {
+              "title": "DJ",
+              "info": "探索不同的音乐风格并混音。"
             },
-            "fr": {
-              "title": "Jouer de la guitare",
-              "info": "Explorer différents genres et améliorer mes compétences."
+            "ja": {
+              "title": "DJ",
+              "info": "さまざまな音楽ジャンルを探求し、トラックをミックスする。"
             },
             "ko": {
-              "title": "기타 연주",
-              "info": "다양한 장르를 탐험하고 기술을 향상시키기."
+              "title": "DJ",
+              "info": "다양한 음악 장르를 탐색하고 트랙을 믹싱하기."
             }
           }
         },
-
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-video",
+            "fa": "fa-solid fa-music",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "AI video editing",
-              "info": "Learning to use AI tools to enhance my videos."
+              "title": "Music production",
+              "info": "Creating and producing original music tracks."
             },
-            "es": {
-              "title": "Edición de video con IA",
-              "info": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
+            "zh": {
+              "title": "音乐制作",
+              "info": "创作和制作原创音乐。"
             },
-            "fr": {
-              "title": "Montage vidéo avec IA",
-              "info": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
+            "ja": {
+              "title": "音楽制作",
+              "info": "オリジナルの音楽トラックを作成および制作する。"
             },
             "ko": {
-              "title": "AI 영상 편집",
-              "info": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
+              "title": "음악 제작",
+              "info": "오리지널 음악 트랙을 만들고 제작하기."
             }
           }
         },
-
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-paint-brush",
+            "fa": "fa-solid fa-music",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "Illustration",
-              "info": "Practicing digital art and exploring new styles."
+              "title": "Play the piano",
+              "info": "Practicing and performing piano pieces."
             },
-            "es": {
-              "title": "Ilustración",
-              "info": "Practicando arte digital y explorando nuevos estilos."
+            "zh": {
+              "title": "弹钢琴",
+              "info": "练习和演奏钢琴曲。"
             },
-            "fr": {
-              "title": "Illustration",
-              "info": "Pratiquer l'art numérique et explorer de nouveaux styles."
+            "ja": {
+              "title": "ピアノを弾く",
+              "info": "ピアノ曲を練習し、演奏する。"
             },
             "ko": {
-              "title": "일러스트레이션",
-              "info": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
+              "title": "피아노 연주",
+              "info": "피아노 곡을 연습하고 연주하기."
             }
           }
         },
-
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-chart-line",
+            "fa": "fa-solid fa-bicycle",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "Investing",
-              "info": "Learning the basics of stocks and personal finance."
+              "title": "Cycling",
+              "info": "Exploring new trails and staying fit."
             },
-            "es": {
-              "title": "Invertir",
-              "info": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
+            "zh": {
+              "title": "骑自行车",
+              "info": "探索新路线并保持健康。"
             },
-            "fr": {
-              "title": "Investir",
-              "info": "Apprendre les bases des actions et des finances personnelles."
+            "ja": {
+              "title": "サイクリング",
+              "info": "新しいトレイルを探索し、健康を維持する。"
             },
             "ko": {
-              "title": "투자",
-              "info": "주식과 개인 재정의 기초 배우기."
+              "title": "자전거 타기",
+              "info": "새로운 길을 탐험하고 건강 유지하기."
             }
           }
         },
-
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-pencil-alt",
+            "fa": "fa-solid fa-code",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "UX design",
-              "info": "Studying user experience principles."
+              "title": "Coding",
+              "info": "Developing software and learning new technologies."
             },
-            "es": {
-              "title": "Diseño UX",
-              "info": "Estudiando los principios de la experiencia del usuario."
+            "zh": {
+              "title": "编程",
+              "info": "开发软件并学习新技术。"
             },
-            "fr": {
-              "title": "Conception UX",
-              "info": "Étudier les principes de l'expérience utilisateur."
+            "ja": {
+              "title": "コーディング",
+              "info": "ソフトウェアを開発し、新しい技術を学ぶ。"
             },
             "ko": {
-              "title": "UX 디자인",
-              "info": "사용자 경험 원칙을 공부하기."
+              "title": "코딩",
+              "info": "소프트웨어 개발 및 새로운 기술 배우기."
             }
           }
         },
-
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-camera-retro",
+            "fa": "fa-solid fa-swimmer",
             "faColors": null
           },
           "value": null,
           "locales": {
             "en": {
-              "title": "Photo editing",
-              "info": "Enhancing photos through creative editing techniques."
+              "title": "Swimming",
+              "info": "Enjoying swimming and improving techniques."
             },
-            "es": {
-              "title": "Edición de fotos",
-              "info": "Mejorando fotos a través de técnicas creativas de edición."
+            "zh": {
+              "title": "游泳",
+              "info": "享受游泳并提高技术。"
             },
-            "fr": {
-              "title": "Retouche photo",
-              "info": "Améliorer des photos avec des techniques de montage créatives."
+            "ja": {
+              "title": "水泳",
+              "info": "水泳を楽しみ、技術を向上させる。"
             },
             "ko": {
-              "title": "사진 편집",
-              "info": "창의적인 편집 기술을 통해 사진을 향상시키기."
+              "title": "수영",
+              "info": "수영을 즐기고 기술 향상하기."
             }
           }
         }
