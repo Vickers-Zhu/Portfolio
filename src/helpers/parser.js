@@ -67,9 +67,6 @@ export const useParser = () => {
   const parseArticleItems = (rawItems, options) => {
     options = options || {};
     options.hideDayFromDates = options.hideDayFromDates || true;
-    console.log(rawItems.length);
-    rawItems = rawItems.filter((item) => item.enabled !== false);
-    console.log(rawItems.length);
 
     return rawItems.map((item, key) => {
       const locales = item["locales"];
