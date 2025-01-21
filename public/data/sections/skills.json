@@ -1,607 +1,860 @@
 {
-    "locales": {
-        "en": {
-            "title": "Skills",
-            "title_long_prefix": "Explore",
-            "title_long": "My **Skill Set**"
-        },
-
-        "es": {
-            "title": "Habilidades",
-            "title_long_prefix": "Explora",
-            "title_long": "Mis **Habilidades**"
-        },
-
-        "fr": {
-            "title": "Capacités",
-            "title_long_prefix": "Explorez",
-            "title_long": "Mes **Compétences**"
-        },
-
-        "ko": {
-            "title": "스킬",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**스킬**입니다"
-        }
+  "locales": {
+    "en": {
+      "title": "Skills",
+      "title_long_prefix": "Discover",
+      "title_long": "My **Professional Skills**"
     },
 
-    "articles": [
+    "zh": {
+      "title": "技能",
+      "title_long_prefix": "了解",
+      "title_long": "我的**专业技能**"
+    },
+
+    "ja": {
+      "title": "スキル",
+      "title_long_prefix": "探る",
+      "title_long": "私の**専門スキル**"
+    },
+
+    "ko": {
+      "title": "기술",
+      "title_long_prefix": "발견하기",
+      "title_long": "나의 **전문 기술**"
+    }
+  },
+
+  "articles": [
+    {
+      "id": "capabilities",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {},
+
+      "items": [
         {
-            "id": "capabilities",
-            "component": "ArticleCards",
-            "config": {},
-            "locales": {},
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-table-columns",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Website** design",
-                            "text": "I can bring your best ideas into life!"
-                        },
-                        "es": {
-                            "title": "Diseño de **sitios web**",
-                            "text": "¡Puedo hacer realidad tus mejores ideas!"
-                        },
-                        "fr": {
-                            "title": "Conception de **sites web**",
-                            "text": "Je peux donner vie à vos meilleures idées !"
-                        },
-                        "ko": {
-                            "title": "**웹사이트** 디자인",
-                            "text": "당신의 최고의 아이디어를 실현시킬 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Database** management",
-                            "text": "I can handle your data effectively!"
-                        },
-                        "es": {
-                            "title": "Gestión de **bases de datos**",
-                            "text": "¡Puedo gestionar tus datos de manera eficaz!"
-                        },
-                        "fr": {
-                            "title": "Gestion de **bases de données**",
-                            "text": "Je peux gérer vos données efficacement !"
-                        },
-                        "ko": {
-                            "title": "**데이터베이스** 관리",
-                            "text": "데이터를 효과적으로 처리할 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-mobile-screen-button",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**App** creation",
-                            "text": "I can make creative and innovative apps!"
-                        },
-                        "es": {
-                            "title": "Creación de **aplicaciones**",
-                            "text": "¡Puedo crear aplicaciones creativas e innovadoras!"
-                        },
-                        "fr": {
-                            "title": "Création d'**applications**",
-                            "text": "Je peux créer des applications créatives et innovantes !"
-                        },
-                        "ko": {
-                            "title": "**앱** 제작",
-                            "text": "창의적이고 혁신적인 앱을 만들 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-window-restore",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "REST **APIs**",
-                            "text": "I can build API services!"
-                        },
-                        "es": {
-                            "title": "APIs **REST**",
-                            "text": "¡Puedo crear servicios API!"
-                        },
-                        "fr": {
-                            "title": "APIs **REST**",
-                            "text": "Je peux créer des services API !"
-                        },
-                        "ko": {
-                            "title": "REST **API**",
-                            "text": "API 서비스를 구축할 수 있습니다!"
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-lock",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Information **Security**",
-                            "text": "Security is my middle name!"
-                        },
-                        "es": {
-                            "title": "**Seguridad** de la información",
-                            "text": "¡La seguridad es mi segundo nombre!"
-                        },
-                        "fr": {
-                            "title": "**Sécurité** de l'information",
-                            "text": "La sécurité est mon deuxième prénom !"
-                        },
-                        "ko": {
-                            "title": "정보 **보안**",
-                            "text": "보안은 제 전문 분야입니다!"
-                        }
-                    }
-                }
-            ]
-
-        },
-
-        {
-            "id": "backend_programming",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": {"title": "Backend"}
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-laptop-code",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Website Development**",
+              "text": "Experienced in designing and developing websites, ensuring both functionality and user-friendliness, from layout to backend systems."
             },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-node-js",
-                        "faColors": {"bg": "#339933", "fill": "#EEE"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "01/15/2019"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Node.js",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-java",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "03/10/2019"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Java 11+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-python",
-                        "faColors": {"bg": "#306998", "fill": "#EEE"}
-                    },
-                    "value": 85,
-                    "dates": {
-                        "start": "06/20/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Python 3.x",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-gem",
-                        "faColors": {"bg": "#CC0000", "fill": "#EEE"}
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "08/30/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Ruby on Rails",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#4479A1", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "10/10/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MySQL",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-docker",
-                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
-                    },
-                    "value": 60,
-                    "dates": {
-                        "start": "04/15/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Docker",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-php",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
-                    },
-                    "value": 100,
-                    "dates": {
-                        "start": "09/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "PHP 8.0+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-life-ring",
-                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "07/10/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Kubernetes",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-server",
-                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
-                    },
-                    "value": 50,
-                    "dates": {
-                        "start": "05/20/2024"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "MongoDB",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-git",
-                        "faColors": {"bg": "#F05032", "fill": "#111"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "01/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Git",
-                            "info": null
-                        }
-                    }
-                }
-            ]
-        },
-
-        {
-            "id": "front_end_programming",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": {"title": "Frontend"}
+            "zh": {
+              "title": "**网站开发**",
+              "text": "具备网站设计和开发经验，确保从布局到后端系统的功能性和用户友好性。"
             },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-html5",
-                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
-                    },
-                    "value": 100,
-                    "dates": {
-                        "start": "09/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "HTML5",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-css3",
-                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
-                    },
-                    "value": 65,
-                    "dates": {
-                        "start": "01/15/2019"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "CSS3",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-js",
-                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "03/10/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "JavaScript ES6+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-react",
-                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
-                    },
-                    "value": 95,
-                    "dates": {
-                        "start": "06/20/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "React",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-vuejs",
-                        "faColors": {"bg": "#4FC08D", "fill": "#111"}
-                    },
-                    "value": 40,
-                    "dates": {
-                        "start": "08/30/2023"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Vue.js",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-bootstrap",
-                        "faColors": {"bg": "#7952B3", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "02/10/2021"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Bootstrap",
-                            "info": null
-                        }
-                    }
-                }
-            ]
-        },
-
-        {
-            "id": "languages",
-            "component": "ArticleList",
-            "config": {},
-            "locales": {
-                "en": { "title": "Languages" },
-                "es": { "title": "Idiomas" },
-                "fr": { "title": "Langues" },
-                "ko": { "title": "언어" }
+            "ja": {
+              "title": "**ウェブサイト開発**",
+              "text": "レイアウトからバックエンドシステムまで、機能性とユーザーフレンドリーを重視したウェブサイトの設計と開発経験があります。"
             },
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/flags/en.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "English",
-                            "info": "Native speaker with excellent communication and writing skills.",
-                            "tags": ["Native"]
-                        },
-                        "es": {
-                            "title": "Inglés",
-                            "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
-                            "tags": ["Nativo"]
-                        },
-                        "fr": {
-                            "title": "Anglais",
-                            "info": "Locuteur natif avec d'excellentes compétences en communication et en rédaction.",
-                            "tags": ["Natif"]
-                        },
-                        "ko": {
-                            "title": "영어",
-                            "info": "모국어 수준의 의사소통 및 글쓰기 능력을 보유.",
-                            "tags": ["모국어"]
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/fr.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "French",
-                            "info": "Fluent in both spoken and written French; confident in professional communication.",
-                            "tags": ["Fluent"]
-                        },
-                        "es": {
-                            "title": "Francés",
-                            "info": "Fluido en francés hablado y escrito; seguro en la comunicación profesional.",
-                            "tags": ["Fluido"]
-                        },
-                        "fr": {
-                            "title": "Français",
-                            "info": "Fluent à l'oral et à l'écrit; confiant dans la communication professionnelle.",
-                            "tags": ["Courant"]
-                        },
-                        "ko": {
-                            "title": "프랑스어",
-                            "info": "구어 및 문어에 유창하며, 전문적인 소통에 자신감이 있음.",
-                            "tags": ["유창"]
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/vn.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "Vietnamese",
-                            "info": "Intermediate proficiency in Vietnamese language; can hold conversations and understand written text.",
-                            "tags": ["Intermediate"]
-                        },
-                        "es": {
-                            "title": "Vietnamita",
-                            "info": "Competencia intermedia en el idioma vietnamita; puede mantener conversaciones y entender textos escritos.",
-                            "tags": ["Intermedio"]
-                        },
-                        "fr": {
-                            "title": "Vietnamien",
-                            "info": "Compétence intermédiaire en vietnamien; peut tenir des conversations et comprendre des textes écrits.",
-                            "tags": ["Intermédiaire"]
-                        },
-                        "ko": {
-                            "title": "베트남어",
-                            "info": "중간 수준의 베트남어 실력; 대화 가능 및 글을 이해할 수 있음.",
-                            "tags": ["중급"]
-                        }
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/ko.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "Korean",
-                            "info": "Basic understanding of Korean; learning and improving.",
-                            "tags": ["Basic"]
-                        },
-                        "es": {
-                            "title": "Coreano",
-                            "info": "Comprensión básica del coreano; aprendiendo y mejorando.",
-                            "tags": ["Básico"]
-                        },
-                        "fr": {
-                            "title": "Coréen",
-                            "info": "Compréhension de base du coréen; en apprentissage et amélioration.",
-                            "tags": ["Basique"]
-                        },
-                        "ko": {
-                            "title": "한국어",
-                            "info": "기초적인 한국어 이해; 배우는 중이며 향상 중.",
-                            "tags": ["기초"]
-                        }
-                    }
-                }
-            ]
+            "ko": {
+              "title": "**웹사이트 개발**",
+              "text": "레이아웃에서 백엔드 시스템까지, 기능성과 사용자 친화성을 보장하는 웹사이트 설계 및 개발 경험이 있습니다."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-gamepad",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Web Game Development**",
+              "text": "Skilled in creating engaging web games using engines like Unity, Egret.js, and PIXI.js, aiming for performance and creativity."
+            },
+            "zh": {
+              "title": "**网页游戏开发**",
+              "text": "熟练使用 Unity、Egret.js 和 PIXI.js 等引擎制作网页游戏，兼顾性能与创意。"
+            },
+            "ja": {
+              "title": "**ウェブゲーム開発**",
+              "text": "Unity、Egret.js、PIXI.js などのエンジンを使用して、パフォーマンスと創造性を追求するウェブゲームを開発しています。"
+            },
+            "ko": {
+              "title": "**웹 게임 개발**",
+              "text": "Unity, Egret.js, PIXI.js와 같은 엔진을 사용하여 성능과 창의성을 갖춘 웹 게임을 개발합니다."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-mobile-screen-button",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**iOS App Creation**",
+              "text": "Proficient in creating practical and user-friendly iOS apps using Swift, Expo, and React Native."
+            },
+            "zh": {
+              "title": "**iOS 应用开发**",
+              "text": "熟练使用 Swift、Expo 和 React Native 开发实用且用户友好的 iOS 应用。"
+            },
+            "ja": {
+              "title": "**iOSアプリ開発**",
+              "text": "Swift、Expo、React Native を活用して、実用的でユーザーフレンドリーな iOS アプリを開発しています。"
+            },
+            "ko": {
+              "title": "**iOS 앱 개발**",
+              "text": "Swift, Expo, React Native를 활용하여 실용적이고 사용자 친화적인 iOS 앱을 개발합니다."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-brain",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**LLM & RAG Models**",
+              "text": "Experienced in leveraging tools like ChatGPT, LLaMA, and Cohere to design thoughtful AI solutions tailored to various needs."
+            },
+            "zh": {
+              "title": "**LLM 和 RAG 模型**",
+              "text": "擅长利用 ChatGPT、LLaMA 和 Cohere 等工具设计贴合需求的 AI 解决方案。"
+            },
+            "ja": {
+              "title": "**LLM & RAG モデル**",
+              "text": "ChatGPT、LLaMA、Cohere を活用し、ニーズに合わせた AI ソリューションの設計に長けています。"
+            },
+            "ko": {
+              "title": "**LLM 및 RAG 모델**",
+              "text": "ChatGPT, LLaMA, Cohere와 같은 도구를 활용하여 다양한 요구에 맞는 AI 솔루션을 설계합니다."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-chart-line",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Data Analysis**",
+              "text": "Proficient in statistical models and machine learning, combining research experience to extract meaningful insights."
+            },
+            "zh": {
+              "title": "**数据分析**",
+              "text": "精通统计模型和机器学习，结合研究经验挖掘有意义的洞察。"
+            },
+            "ja": {
+              "title": "**データ分析**",
+              "text": "統計モデルと機械学習に精通しており、研究経験を組み合わせて有益な洞察を引き出します。"
+            },
+            "ko": {
+              "title": "**데이터 분석**",
+              "text": "통계 모델 및 머신 러닝에 능숙하며, 연구 경험을 통해 의미 있는 인사이트를 제공합니다."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "locales": {
+            "en": {
+              "title": "**Database Management**",
+              "text": "Experienced in managing databases with attention to scalability, efficiency, and reliability."
+            },
+            "zh": {
+              "title": "**数据库管理**",
+              "text": "具备管理数据库的经验，注重可扩展性、效率和可靠性。"
+            },
+            "ja": {
+              "title": "**データベース管理**",
+              "text": "スケーラビリティ、効率性、信頼性を重視したデータベース管理の経験があります。"
+            },
+            "ko": {
+              "title": "**데이터베이스 관리**",
+              "text": "확장성, 효율성, 신뢰성을 중시하는 데이터베이스 관리 경험이 있습니다."
+            }
+          }
         }
-    ]
+      ]
+    },
+
+    {
+      "id": "backend_programming",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Backend" },
+        "zh": { "title": "后端开发" },
+        "ja": { "title": "バックエンド" },
+        "ko": { "title": "백엔드 개발" }
+      },
+
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-node-js",
+            "faColors": { "bg": "#339933", "fill": "#EEE" }
+          },
+          "value": 90,
+          "dates": { "start": "2020-05-01" },
+          "locales": {
+            "en": {
+              "title": "Node.js",
+              "info": "Building efficient server-side applications."
+            },
+            "zh": {
+              "title": "Node.js",
+              "info": "构建高效的服务器端应用程序。"
+            },
+            "ja": {
+              "title": "Node.js",
+              "info": "効率的なサーバーサイドアプリケーションの構築。"
+            },
+            "ko": {
+              "title": "Node.js",
+              "info": "효율적인 서버측 애플리케이션 구축."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-gem",
+            "faColors": { "bg": "#CC0000", "fill": "#EEE" }
+          },
+          "value": 50,
+          "dates": { "start": "2024-10-01" },
+          "locales": {
+            "en": {
+              "title": "Ruby",
+              "info": "Scripting and backend development tasks."
+            },
+            "zh": { "title": "Ruby", "info": "后端开发任务的脚本编写。" },
+            "ja": {
+              "title": "Ruby",
+              "info": "バックエンド開発タスクのスクリプト作成。"
+            },
+            "ko": { "title": "루비", "info": "백엔드 작업을 위한 스크립팅." }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-git",
+            "faColors": { "bg": "#F05032", "fill": "#111" }
+          },
+          "value": 90,
+          "dates": { "start": "2017-10-01" },
+          "locales": {
+            "en": {
+              "title": "Git",
+              "info": "Version control for collaborative projects."
+            },
+            "zh": { "title": "Git", "info": "协作项目的版本控制。" },
+            "ja": {
+              "title": "Git",
+              "info": "共同プロジェクトのためのバージョン管理。"
+            },
+            "ko": { "title": "Git", "info": "협업 프로젝트를 위한 버전 관리." }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-java",
+            "faColors": { "bg": "#007396", "fill": "#EEE" }
+          },
+          "value": 60,
+          "dates": { "start": "2016-12-01" },
+          "locales": {
+            "en": {
+              "title": "Java",
+              "info": "Reliable and versatile backend programming."
+            },
+            "zh": { "title": "Java", "info": "可靠且多功能的后端编程语言。" },
+            "ja": {
+              "title": "Java",
+              "info": "信頼性があり多用途なバックエンドプログラミング。"
+            },
+            "ko": {
+              "title": "자바",
+              "info": "신뢰성과 다재다능함을 갖춘 백엔드 프로그래밍."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": "#4479A1", "fill": "#EEE" }
+          },
+          "value": 60,
+          "dates": { "start": "2016-12-01" },
+          "locales": {
+            "en": {
+              "title": "MySQL",
+              "info": "Effective database management and operations."
+            },
+            "zh": { "title": "MySQL", "info": "高效的数据库管理与操作。" },
+            "ja": {
+              "title": "MySQL",
+              "info": "効果的なデータベース管理と運用。"
+            },
+            "ko": {
+              "title": "MySQL",
+              "info": "효율적인 데이터베이스 관리 및 운영."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-python",
+            "faColors": { "bg": "#306998", "fill": "#EEE" }
+          },
+          "value": 90,
+          "dates": { "start": "2017-02-01" },
+          "locales": {
+            "en": {
+              "title": "Python 3",
+              "info": "A versatile language for data and application tasks."
+            },
+            "zh": {
+              "title": "Python 3",
+              "info": "适用于数据与应用程序任务的多功能语言。"
+            },
+            "ja": {
+              "title": "Python 3",
+              "info": "データとアプリケーションタスクに適した多機能言語。"
+            },
+            "ko": {
+              "title": "Python 3",
+              "info": "데이터 및 애플리케이션 작업에 적합한 다목적 언어."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-docker",
+            "faColors": { "bg": "#2496ED", "fill": "#EEE" }
+          },
+          "value": 70,
+          "dates": { "start": "2024-03-01" },
+          "locales": {
+            "en": {
+              "title": "Docker",
+              "info": "Containerization for application deployment."
+            },
+            "zh": { "title": "Docker", "info": "应用程序部署的容器化工具。" },
+            "ja": {
+              "title": "Docker",
+              "info": "アプリケーションのデプロイ用コンテナ化。"
+            },
+            "ko": {
+              "title": "도커",
+              "info": "애플리케이션 배포를 위한 컨테이너화."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-server",
+            "faColors": { "bg": "#47A248", "fill": "#EEE" }
+          },
+          "value": 60,
+          "dates": { "start": "2022-05-01" },
+          "locales": {
+            "en": {
+              "title": "MongoDB",
+              "info": "Flexible NoSQL database for modern applications."
+            },
+            "zh": {
+              "title": "MongoDB",
+              "info": "现代应用程序的灵活 NoSQL 数据库。"
+            },
+            "ja": {
+              "title": "MongoDB",
+              "info": "現代アプリケーションのための柔軟なNoSQLデータベース。"
+            },
+            "ko": {
+              "title": "MongoDB",
+              "info": "현대 애플리케이션을 위한 유연한 NoSQL 데이터베이스."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "front_end_programming",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Frontend" },
+        "zh": { "title": "前端开发" },
+        "ja": { "title": "フロントエンド" },
+        "ko": { "title": "프론트엔드 개발" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-html5",
+            "faColors": { "bg": "#E34F26", "fill": "#EEE" }
+          },
+          "value": 95,
+          "dates": { "start": "2018-10-01" },
+          "locales": {
+            "en": {
+              "title": "HTML5",
+              "info": "Creating structured and responsive web content."
+            },
+            "zh": { "title": "HTML5", "info": "创建结构化和响应式网页内容。" },
+            "ja": {
+              "title": "HTML5",
+              "info": "構造化されたレスポンシブウェブコンテンツの作成。"
+            },
+            "ko": {
+              "title": "HTML5",
+              "info": "구조화되고 반응형 웹 콘텐츠 제작."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-css3",
+            "faColors": { "bg": "#1572B6", "fill": "#EEE" }
+          },
+          "value": 80,
+          "dates": { "start": "2018-10-01" },
+          "locales": {
+            "en": {
+              "title": "CSS3",
+              "info": "Styling websites for an enhanced user experience."
+            },
+            "zh": { "title": "CSS3", "info": "为网站设计提供更佳的用户体验。" },
+            "ja": {
+              "title": "CSS3",
+              "info": "ウェブサイトのスタイリングによるユーザー体験の向上。"
+            },
+            "ko": {
+              "title": "CSS3",
+              "info": "사용자 경험을 향상시키는 웹사이트 스타일링."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-js",
+            "faColors": { "bg": "#F7DF1E", "fill": "#111" }
+          },
+          "value": 95,
+          "dates": { "start": "2017-12-01" },
+          "locales": {
+            "en": {
+              "title": "JavaScript ES6+",
+              "info": "Building dynamic and interactive web applications."
+            },
+            "zh": {
+              "title": "JavaScript ES6+",
+              "info": "构建动态交互式网页应用程序。"
+            },
+            "ja": {
+              "title": "JavaScript ES6+",
+              "info": "動的でインタラクティブなウェブアプリケーションの構築。"
+            },
+            "ko": {
+              "title": "JavaScript ES6+",
+              "info": "동적이고 인터랙티브한 웹 애플리케이션 제작."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-react",
+            "faColors": { "bg": "#61DAFB", "fill": "#111" }
+          },
+          "value": 85,
+          "dates": { "start": "2021-05-01" },
+          "locales": {
+            "en": {
+              "title": "React",
+              "info": "Developing modular and reusable UI components."
+            },
+            "zh": {
+              "title": "React",
+              "info": "开发模块化和可复用的用户界面组件。"
+            },
+            "ja": {
+              "title": "React",
+              "info": "モジュール化および再利用可能なUIコンポーネントの開発。"
+            },
+            "ko": {
+              "title": "React",
+              "info": "모듈형 및 재사용 가능한 UI 컴포넌트 개발."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-vuejs",
+            "faColors": { "bg": "#4FC08D", "fill": "#111" }
+          },
+          "value": 75,
+          "dates": { "start": "2020-05-01" },
+          "locales": {
+            "en": {
+              "title": "Vue.js",
+              "info": "Creating lightweight and scalable web apps."
+            },
+            "zh": {
+              "title": "Vue.js",
+              "info": "创建轻量级和可扩展的网页应用程序。"
+            },
+            "ja": {
+              "title": "Vue.js",
+              "info": "軽量でスケーラブルなウェブアプリケーションの作成。"
+            },
+            "ko": {
+              "title": "Vue.js",
+              "info": "경량화되고 확장 가능한 웹 애플리케이션 제작."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-swift",
+            "faColors": { "bg": "#FA7343", "fill": "#EEE" }
+          },
+          "value": 70,
+          "dates": { "start": "2023-12-01" },
+          "locales": {
+            "en": {
+              "title": "Swift",
+              "info": "Building efficient and intuitive iOS applications."
+            },
+            "zh": { "title": "Swift", "info": "构建高效直观的 iOS 应用程序。" },
+            "ja": {
+              "title": "Swift",
+              "info": "効率的で直感的なiOSアプリケーションの構築。"
+            },
+            "ko": {
+              "title": "스위프트",
+              "info": "효율적이고 직관적인 iOS 애플리케이션 제작."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-code",
+            "faColors": { "bg": "#000000", "fill": "#EEE" }
+          },
+          "value": 72,
+          "dates": { "start": "2016-10-01" },
+          "locales": {
+            "en": {
+              "title": "C#",
+              "info": "Designing robust and scalable software solutions."
+            },
+            "zh": { "title": "C#", "info": "设计稳健且可扩展的软件解决方案。" },
+            "ja": {
+              "title": "C#",
+              "info": "堅牢でスケーラブルなソフトウェアソリューションの設計。"
+            },
+            "ko": {
+              "title": "C#",
+              "info": "견고하고 확장 가능한 소프트웨어 솔루션 설계."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-js",
+            "faColors": { "bg": "#FFA500", "fill": "#FFF" }
+          },
+          "value": 70,
+          "dates": { "start": "2021-04-01" },
+          "locales": {
+            "en": {
+              "title": "GSAP",
+              "info": "Mastering animations for dynamic and interactive web applications."
+            },
+            "zh": {
+              "title": "GSAP",
+              "info": "掌握动态和交互式网页应用的动画技术。"
+            },
+            "ja": {
+              "title": "GSAP",
+              "info": "動的でインタラクティブなウェブアプリケーション向けのアニメーションの習得。"
+            },
+            "ko": {
+              "title": "GSAP",
+              "info": "동적이고 인터랙티브한 웹 애플리케이션을 위한 애니메이션 마스터링."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-magic",
+            "faColors": { "bg": "#32CD32", "fill": "#FFF" }
+          },
+          "value": 95,
+          "dates": { "start": "2021-04-01" },
+          "locales": {
+            "en": {
+              "title": "PIXI.js",
+              "info": "Creating high-performance 2D graphics for web applications."
+            },
+            "zh": {
+              "title": "PIXI.js",
+              "info": "为网页应用创建高性能的二维图形。"
+            },
+            "ja": {
+              "title": "PIXI.js",
+              "info": "ウェブアプリケーション向けの高性能な2Dグラフィックの作成。"
+            },
+            "ko": {
+              "title": "PIXI.js",
+              "info": "웹 애플리케이션을 위한 고성능 2D 그래픽 제작."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-unity",
+            "faColors": { "bg": "#4B0082", "fill": "#FFF" }
+          },
+          "value": 85,
+          "dates": { "start": "2021-04-01" },
+          "locales": {
+            "en": {
+              "title": "Egret.js",
+              "info": "Developing lightweight and interactive web games efficiently."
+            },
+            "zh": {
+              "title": "Egret.js",
+              "info": "高效开发轻量级和互动型网页游戏。"
+            },
+            "ja": {
+              "title": "Egret.js",
+              "info": "軽量でインタラクティブなウェブゲームの効率的な開発。"
+            },
+            "ko": {
+              "title": "Egret.js",
+              "info": "경량화된 인터랙티브 웹 게임을 효율적으로 개발."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-gamepad",
+            "faColors": { "bg": "#000080", "fill": "#FFF" }
+          },
+          "value": 80,
+          "dates": { "start": "2021-04-01" },
+          "locales": {
+            "en": {
+              "title": "Layabox",
+              "info": "Designing and building scalable game structures for web platforms."
+            },
+            "zh": {
+              "title": "Layabox",
+              "info": "为网页平台设计和构建可扩展的游戏结构。"
+            },
+            "ja": {
+              "title": "Layabox",
+              "info": "ウェブプラットフォーム向けのスケーラブルなゲーム構造の設計と構築。"
+            },
+            "ko": {
+              "title": "Layabox",
+              "info": "웹 플랫폼용 확장 가능한 게임 구조 설계 및 구축."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-cube",
+            "faColors": { "bg": "#8A2BE2", "fill": "#FFF" }
+          },
+          "value": 75,
+          "dates": { "start": "2021-04-01" },
+          "locales": {
+            "en": {
+              "title": "Three.js",
+              "info": "Developing 3D graphics and visualizations for the web."
+            },
+            "zh": { "title": "Three.js", "info": "为网页开发3D图形和可视化。" },
+            "ja": {
+              "title": "Three.js",
+              "info": "ウェブ向けの3Dグラフィックおよびビジュアライゼーションの開発。"
+            },
+            "ko": {
+              "title": "Three.js",
+              "info": "웹을 위한 3D 그래픽 및 시각화 개발."
+            }
+          }
+        }
+      ]
+    },
+
+    {
+      "id": "languages",
+      "component": "ArticleList",
+      "config": {},
+      "locales": {
+        "en": { "title": "Languages" },
+        "zh": { "title": "语言" },
+        "ja": { "title": "言語" },
+        "ko": { "title": "언어" }
+      },
+      "items": [
+        {
+          "icon": {
+            "img": "images/flags/zh.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "Chinese",
+              "info": "Native speaker with excellent command of the language.",
+              "tags": ["Native"]
+            },
+            "zh": {
+              "title": "中文",
+              "info": "母语水平，具备出色的语言能力。",
+              "tags": ["母语"]
+            },
+            "ja": {
+              "title": "中国語",
+              "info": "母国語レベルで流暢に使用。",
+              "tags": ["母国語"]
+            },
+            "ko": {
+              "title": "중국어",
+              "info": "모국어 수준의 유창한 사용 능력.",
+              "tags": ["모국어"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/flags/en.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "English",
+              "info": "Proficiency at C1 level; strong professional communication skills.",
+              "tags": ["C1 Proficiency"]
+            },
+            "zh": {
+              "title": "英语",
+              "info": "C1 水平，具备良好的职业沟通能力。",
+              "tags": ["C1 水平"]
+            },
+            "ja": {
+              "title": "英語",
+              "info": "C1レベルのスキルを持ち、優れた職業的コミュニケーション能力を備える。",
+              "tags": ["C1 レベル"]
+            },
+            "ko": {
+              "title": "영어",
+              "info": "C1 수준의 능숙함, 뛰어난 직업적 의사소통 기술 보유.",
+              "tags": ["C1 수준"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/flags/ja.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "Japanese",
+              "info": "JLPT N1 certified; highly fluent in both written and spoken Japanese.",
+              "tags": ["JLPT N1"]
+            },
+            "zh": {
+              "title": "日语",
+              "info": "通过日语能力考试 N1，日语听说读写流利。",
+              "tags": ["JLPT N1"]
+            },
+            "ja": {
+              "title": "日本語",
+              "info": "JLPT N1認定。日本語の読み書きと会話に堪能。",
+              "tags": ["JLPT N1"]
+            },
+            "ko": {
+              "title": "일본어",
+              "info": "JLPT N1 인증. 일본어 읽기, 쓰기, 말하기 유창.",
+              "tags": ["JLPT N1"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/flags/pl.png",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "value": null,
+          "dates": { "start": null },
+          "locales": {
+            "en": {
+              "title": "Polish",
+              "info": "Basic level (A1); familiar with everyday expressions.",
+              "tags": ["A1 Beginner"]
+            },
+            "zh": {
+              "title": "波兰语",
+              "info": "初级 A1 水平，熟悉日常表达。",
+              "tags": ["A1 初级"]
+            },
+            "ja": {
+              "title": "ポーランド語",
+              "info": "A1レベルの初歩的なスキル。日常的な表現に慣れている。",
+              "tags": ["A1 初級"]
+            },
+            "ko": {
+              "title": "폴란드어",
+              "info": "초급 A1 수준. 일상 표현에 익숙함.",
+              "tags": ["A1 초급"]
+            }
+          }
+        }
+      ]
+    }
+  ]
 }

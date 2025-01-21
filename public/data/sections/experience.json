@@ -1,187 +1,144 @@
 {
-    "locales": {
-        "en": {
-            "title": "Experience",
-            "title_long_prefix": "Summary of my",
-            "title_long": "**Work** Experience"
-        },
-
-        "es": {
-            "title": "Experiencia",
-            "title_long_prefix": "Resumen de mi",
-            "title_long": "Experiencia **Laboral**"
-        },
-
-        "fr": {
-            "title": "Expérience",
-            "title_long_prefix": "Résumé de mon",
-            "title_long": "Parcours **Professionel**"
-        },
-
-        "ko": {
-            "title": "경험",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**직업적** 경험"
-        }
+  "locales": {
+    "en": {
+      "title": "Experience",
+      "title_long_prefix": "Summary of my",
+      "title_long": "**Work** Experience"
     },
-
-    "articles": [
+    "zh": {
+      "title": "经验",
+      "title_long_prefix": "我的工作",
+      "title_long": "**经历**总结"
+    },
+    "ja": {
+      "title": "経験",
+      "title_long_prefix": "私の職務",
+      "title_long": "**経験**の概要"
+    },
+    "ko": {
+      "title": "경험",
+      "title_long_prefix": "저의",
+      "title_long": "**직업적** 경험 요약"
+    }
+  },
+  "articles": [
+    {
+      "id": "work",
+      "component": "ArticleTimeline",
+      "config": {},
+      "items": [
         {
-            "id": "work",
-            "component": "ArticleTimeline",
-            "config": {},
-            "locales": {},
-
-            "items": [
-                {
-                    "icon": {
-                        "img": "images/pictures/place-7.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "03/01/2016",
-                        "end": "06/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Backend** Developer",
-                            "info": "Sapphire Studio",
-                            "text": "Developed and maintained scalable backend systems for various clients, optimizing database performance and implementing RESTful APIs to improve application functionality.",
-                            "tags": ["PHP", "MySQL", "Laravel"]
-                        },
-                        "es": {
-                            "title": "Desarrollador **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Desarrollé y mantuve sistemas backend escalables para varios clientes, optimizando el rendimiento de la base de datos e implementando APIs RESTful para mejorar la funcionalidad de la aplicación.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend**",
-                            "info": "Sapphire Studio",
-                            "text": "Développé et maintenu des systèmes backend évolutifs pour divers clients, optimisant les performances de la base de données et implémentant des APIs RESTful pour améliorer la fonctionnalité de l'application.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**백엔드** 개발자",
-                            "info": "사파이어 스튜디오",
-                            "text": "여러 클라이언트를 위해 확장 가능한 백엔드 시스템을 개발하고 유지 관리하며, 데이터베이스 성능을 최적화하고 애플리케이션 기능을 개선하기 위해 RESTful API를 구현했습니다.",
-                            "tags": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": "images/pictures/place-3.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "06/01/2018",
-                        "end": "12/01/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Full-Stack** Engineer",
-                            "info": "Coursera",
-                            "text": "Worked on enhancing the Coursera website by implementing new features and improving user experience, utilizing both frontend and backend technologies to ensure seamless functionality.",
-                            "tags": ["JavaScript", "React", "Node.js", "PHP", "REST", "Docker"]
-                        },
-                        "es": {
-                            "title": "Ingeniero **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "Participé en la mejora del sitio web de Coursera al implementar nuevas funcionalidades y optimizar la experiencia del usuario, utilizando tecnologías de frontend y backend para asegurar un funcionamiento sin problemas.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Ingénieur **Full-Stack**",
-                            "info": "Coursera",
-                            "text": "J'ai contribué à l'amélioration du site Web de Coursera en ajoutant de nouvelles fonctionnalités et en optimisant l'expérience utilisateur, en utilisant des technologies frontend et backend pour garantir un fonctionnement fluide.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**풀스택** 엔지니어",
-                            "info": "코세라",
-                            "text": "Coursera 웹사이트를 개선하기 위해 새로운 기능을 추가하고 사용자 경험을 최적화했습니다. 원활한 기능을 보장하기 위해 프론트엔드와 백엔드 기술을 모두 활용했습니다.",
-                            "tags": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": "images/pictures/place-1.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "dates": {
-                        "start": "12/01/2020",
-                        "end": "11/01/2022"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Backend** Engineer",
-                            "info": "Adobe Inc.",
-                            "text": "Contributed to the development of robust backend systems for Adobe Creative Cloud, integrating third-party services and improving data processing efficiency through cloud functions.",
-                            "tags": ["Java", "AWS", "REST", "Docker"]
-                        },
-                        "es": {
-                            "title": "Ingeniero **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "Contribuí al desarrollo de sistemas backend robustos para Adobe Creative Cloud, integrando servicios de terceros y mejorando la eficiencia en el procesamiento de datos mediante funciones en la nube.",
-                            "tags": null
-                        },
-                        "fr": {
-                            "title": "Ingénieur **Backend**",
-                            "info": "Adobe Inc.",
-                            "text": "J'ai contribué au développement de systèmes backend solides pour Adobe Creative Cloud, intégrant des services tiers et améliorant l'efficacité du traitement des données grâce aux fonctions cloud.",
-                            "tags": null
-                        },
-                        "ko": {
-                            "title": "**백엔드** 엔지니어",
-                            "info": "어도비 주식회사",
-                            "text": "Adobe Creative Cloud를 위한 강력한 백엔드 시스템 개발에 기여하였으며, 타사 서비스 통합과 클라우드 기능을 통해 데이터 처리 효율성을 향상시켰습니다.",
-                            "tags": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-apple",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2022",
-                        "end": "now"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "**Senior Backend** Developer",
-                            "info": "Apple Inc.",
-                            "text": "<p>Leading a team of developers to design and implement backend solutions for Apple's services, with a focus on:</p> <ul><li>Security</li><li>Scalability to handle millions of users globally</li><li>Developing RESTful APIs</li><li>Optimizing database performance with PostgreSQL</li><li>Building services with Swift, PHP, and GraphQL</li></ul> <p class='mt-3'>Together, we ensure Apple's backend infrastructure stays robust and efficient.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "es": {
-                            "title": "Desarrollador **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Liderando un equipo de desarrolladores para diseñar e implementar soluciones backend para los servicios de Apple, con enfoque en:</p> <ul><li>Seguridad</li><li>Escalabilidad para manejar millones de usuarios a nivel global</li><li>Desarrollar APIs RESTful</li><li>Optimizar el rendimiento de bases de datos con PostgreSQL</li><li>Construcción de servicios con Swift, PHP y GraphQL</li></ul> <p class='mt-3'>Juntos, aseguramos que la infraestructura backend de Apple se mantenga robusta y eficiente.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "fr": {
-                            "title": "Développeur **Backend Senior**",
-                            "info": "Apple Inc.",
-                            "text": "<p>Dirigeant une équipe de développeurs pour concevoir et mettre en œuvre des solutions backend pour les services d'Apple, en se concentrant sur:</p> <ul><li>Sécurité</li><li>Scalabilité pour gérer des millions d'utilisateurs dans le monde</li><li>Développement d'APIs RESTful</li><li>Optimisation des performances des bases de données avec PostgreSQL</li><li>Création de services avec Swift, PHP et GraphQL</li></ul> <p class='mt-3'>Ensemble, nous assurons que l'infrastructure backend d'Apple reste robuste et efficace.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        },
-                        "ko": {
-                            "title": "**수석 백엔드** 개발자",
-                            "info": "애플 주식회사",
-                            "text": "<p>Apple 서비스의 백엔드 솔루션을 설계하고 구현하는 개발 팀을 이끌며, 다음에 중점을 둡니다:</p> <ul><li>보안</li><li>수백만 명의 사용자를 처리할 수 있는 확장성</li><li>RESTful API 개발</li><li>PostgreSQL로 데이터베이스 성능 최적화</li><li>Swift, PHP, GraphQL로 서비스 구축</li></ul> <p class='mt-3'>우리는 함께 Apple의 백엔드 인프라가 견고하고 효율적으로 유지되도록 보장합니다.</p>",
-                            "tags": ["Swift", "PostgreSQL", "GraphQL", "RESTful APIs", "PHP"]
-                        }
-                    }
-                }
-            ]
+          "icon": {
+            "img": "images/pictures/place-2.jpeg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "05/01/2020",
+            "end": "03/01/2021"
+          },
+          "locales": {
+            "en": {
+              "title": "Application Programmer",
+              "info": "Huawei, Warsaw, Poland",
+              "text": "Developed and optimized the Northeast Europe digital service platform module. Collaborated closely with backend engineers to debug and launch updates within a short timeframe. Contributed to Huawei's GDE tool platform by developing Python-based tools and integrating Excel functionalities.",
+              "tags": ["Node.js", "JavaScript", "Python", "Excel Integration"]
+            },
+            "zh": {
+              "title": "应用程序开发员",
+              "info": "华为，波兰华沙",
+              "text": "开发和优化了东北欧数字服务平台模块。与后端工程师紧密合作，在短时间内完成调试并上线。还参与了华为GDE工具平台的开发，创建了基于Python的工具并集成了Excel功能。",
+              "tags": ["Node.js", "JavaScript", "Python", "Excel集成"]
+            },
+            "ja": {
+              "title": "アプリケーションプログラマー",
+              "info": "ファーウェイ、ポーランド ワルシャワ",
+              "text": "東北ヨーロッパのデジタルサービスプラットフォームモジュールを開発および最適化。バックエンドエンジニアと緊密に連携し、短期間でのデバッグと更新を達成しました。また、Pythonを使用してツールを開発し、Excel機能を統合したHuawei GDEツールプラットフォームに貢献しました。",
+              "tags": ["Node.js", "JavaScript", "Python", "Excel統合"]
+            },
+            "ko": {
+              "title": "응용 프로그램 프로그래머",
+              "info": "화웨이, 폴란드 바르샤바",
+              "text": "북동 유럽 디지털 서비스 플랫폼 모듈을 개발하고 최적화했습니다. 백엔드 엔지니어와 긴밀히 협력하여 짧은 시간 내에 디버깅 및 업데이트를 완료했습니다. 또한, Python 기반 도구를 개발하고 Excel 기능을 통합하여 Huawei GDE 도구 플랫폼에 기여했습니다.",
+              "tags": ["Node.js", "JavaScript", "Python", "Excel 통합"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/place-1.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "04/01/2021",
+            "end": "05/01/2022"
+          },
+          "locales": {
+            "en": {
+              "title": "Interactive Frontend Engineer",
+              "info": "SenseTime, Shanghai, China",
+              "text": "Created web games and platforms for AI education kits. Mastered rendering libraries like GSAP and PIXI.js, and game engines such as Egret and Layabox. Designed game structures and handled API integrations and iFrame compatibility for large-scale web applications.",
+              "tags": ["JavaScript", "GSAP", "PIXI.js", "Egret", "Layabox"]
+            },
+            "zh": {
+              "title": "前端互动开发工程师",
+              "info": "商汤科技，中国上海",
+              "text": "开发了用于AI教育工具包的网页游戏和平台。熟练掌握了GSAP和PIXI.js等渲染库，以及Egret和Layabox等游戏引擎。设计了游戏结构，并处理了大型网页应用的API集成和iFrame兼容性。",
+              "tags": ["JavaScript", "GSAP", "PIXI.js", "Egret", "Layabox"]
+            },
+            "ja": {
+              "title": "前端インタラクティブエンジニア",
+              "info": "SenseTime、中国上海",
+              "text": "AI教育キット向けのウェブゲームとプラットフォームを作成。GSAPやPIXI.jsなどのレンダリングライブラリ、およびEgretやLayaboxなどのゲームエンジンを習得しました。ゲーム構造を設計し、大規模なウェブアプリケーションのAPI統合とiFrameの互換性を担当。",
+              "tags": ["JavaScript", "GSAP", "PIXI.js", "Egret", "Layabox"]
+            },
+            "ko": {
+              "title": "프런트엔드 인터랙티브 엔지니어",
+              "info": "SenseTime, 중국 상하이",
+              "text": "AI 교육 키트를 위한 웹 게임 및 플랫폼을 제작했습니다. GSAP, PIXI.js와 같은 렌더링 라이브러리 및 Egret, Layabox와 같은 게임 엔진을 마스터했습니다. 게임 구조를 설계하고 대규모 웹 애플리케이션의 API 통합 및 iFrame 호환성을 처리했습니다.",
+              "tags": ["JavaScript", "GSAP", "PIXI.js", "Egret", "Layabox"]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/place-5.gif",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "03/01/2024",
+            "end": "07/01/2024"
+          },
+          "locales": {
+            "en": {
+              "title": "Teaching Assistant",
+              "info": "Tohoku University, Entrepreneurial Course",
+              "text": "Supported students in understanding the fundamentals of entrepreneurship, guiding project development, and providing mentorship for startup-oriented research. Focused on fostering creativity and practical problem-solving skills.",
+              "tags": ["Education", "Entrepreneurship", "Mentorship"]
+            },
+            "zh": {
+              "title": "教学助理",
+              "info": "东北大学，创业课程",
+              "text": "帮助学生理解创业基础，指导项目开发，并为面向创业的研究提供指导。专注于培养创造力和实际问题解决能力。",
+              "tags": ["教育", "创业", "指导"]
+            },
+            "ja": {
+              "title": "ティーチングアシスタント",
+              "info": "東北大学、アントレプレナー入門塾",
+              "text": "学生が起業の基礎を理解できるよう支援し、プロジェクト開発を指導するとともに、スタートアップ指向の研究にメンターシップを提供しました。創造性と実践的な問題解決能力の育成に注力。",
+              "tags": ["教育", "起業家精神", "指導"]
+            },
+            "ko": {
+              "title": "교수 조교",
+              "info": "도호쿠 대학, 기업가 코스",
+              "text": "학생들이 창업의 기본 개념을 이해하도록 지원하고 프로젝트 개발을 지도하며 창업 지향 연구를 위한 멘토링을 제공했습니다. 창의성과 실용적인 문제 해결 능력을 키우는 데 중점을 두었습니다.",
+              "tags": ["교육", "창업", "멘토링"]
+            }
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

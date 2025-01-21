@@ -162,10 +162,10 @@
               ]
             },
             "ja": {
-              "info": "私の履歴書をダウンロード",
+              "info": "私の履歴書と職務経歴書をダウンロード",
               "links": [
                 {
-                  "href": "/files/履歴書.pdf"
+                  "href": "/files/履歴書と職務経歴書.zip"
                 }
               ]
             },
@@ -173,7 +173,7 @@
               "info": "내 이력서 다운로드",
               "links": [
                 {
-                  "href": "/files/resume-en.pdf"
+                  "href": "/files/Resume_JPJob__EN.pdf"
                 }
               ]
             }
