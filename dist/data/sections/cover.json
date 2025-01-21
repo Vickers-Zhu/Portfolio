@@ -128,6 +128,56 @@
             "ja": { "info": "@Vickers-Zhu" },
             "ko": { "info": "@Vickers-Zhu" }
           }
+        },
+        {
+          "value": null,
+          "links": [
+            {
+              "href": null
+            }
+          ],
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-file-arrow-down",
+            "faColors": {
+              "bg": null,
+              "fill": null
+            }
+          },
+          "locales": {
+            "en": {
+              "info": "Download My Resume",
+              "links": [
+                {
+                  "href": "/files/Resume_JPJob__EN.pdf"
+                }
+              ]
+            },
+            "zh": {
+              "info": "下载我的英文简历",
+              "links": [
+                {
+                  "href": "/files/Resume_JPJob__EN.pdf"
+                }
+              ]
+            },
+            "ja": {
+              "info": "私の履歴書をダウンロード",
+              "links": [
+                {
+                  "href": "/files/履歴書.pdf"
+                }
+              ]
+            },
+            "ko": {
+              "info": "내 이력서 다운로드",
+              "links": [
+                {
+                  "href": "/files/resume-en.pdf"
+                }
+              ]
+            }
+          }
         }
       ]
     },
