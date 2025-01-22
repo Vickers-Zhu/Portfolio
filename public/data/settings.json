@@ -26,6 +26,11 @@
                 "role": "アプリケーション開発者",
                 "name": "シュ ケイイ",
                 "stylizedName": "<strong>シュ **ケイイ**</strong>"
+            },
+            "ko": {
+                "role": "응용 프로그램 개발자",
+                "name": "주 지이",
+                "stylizedName": "<strong>주 **지이**</strong>"
             }
         }
     },
