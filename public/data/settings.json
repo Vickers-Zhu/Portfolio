@@ -67,17 +67,17 @@
             "default": true
         },
         {
-            "name": "Korean",
+            "name": "한국어",
             "id": "ko",
             "flagUrl": "images/flags/ko.png"
         },
         {
-            "name": "Chinese",
+            "name": "中文",
             "id": "zh",
             "flagUrl": "images/flags/zh.png"
         },
         {
-            "name": "Japanese",
+            "name": "日本語",
             "id": "ja",
             "flagUrl": "images/flags/ja.png"
         }
