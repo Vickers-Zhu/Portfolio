@@ -2,22 +2,22 @@
   "locales": {
     "en": {
       "title": "Contact",
-      "title_long_prefix": "Don't hesitate to",
+      "title_long_prefix": "Feel free to",
       "title_long": "**Contact** Me"
     },
     "zh": {
       "title": "联系",
-      "title_long_prefix": "请随时",
+      "title_long_prefix": "随时",
       "title_long": "**联系** 我"
     },
     "ja": {
       "title": "お問い合わせ",
-      "title_long_prefix": "遠慮なく",
+      "title_long_prefix": "気軽に",
       "title_long": "**お問い合わせ**ください"
     },
     "ko": {
       "title": "연락처",
-      "title_long_prefix": "주저하지 말고",
+      "title_long_prefix": "언제든지",
       "title_long": "**연락** 주세요"
     }
   },
@@ -29,11 +29,10 @@
       "config": {},
       "locales": {
         "en": { "title": "Send me a **message**" },
-        "es": { "title": "Envíame un **mensaje**" },
-        "fr": { "title": "Envoyez-moi un **message**" },
+        "zh": { "title": "发送我一条**消息**" },
+        "ja": { "title": "**メッセージ**を送ってください" },
         "ko": { "title": "**메시지를** 보내주세요" }
       },
-
       "items": null
     },
 
@@ -52,84 +51,97 @@
 
       "items": [
         {
-          "value": "+1 (123) 456-7890",
-          "links": [{ "href": "tel:11234567890" }],
+          "value": null,
+          "links": [{ "href": null }],
           "icon": {
             "img": null,
             "fa": "fa-solid fa-phone",
             "faColors": { "bg": null, "fill": null }
           },
           "locales": {
-            "en": { "title": "Phone" },
-            "es": { "title": "Teléfono" },
-            "fr": { "title": "Téléphone" },
-            "ko": { "title": "전화" }
+            "en": {
+              "title": "Phone",
+              "info": "+86 176 6452 3883",
+              "links": [{ "href": "tel:+8617664523883" }]
+            },
+            "zh": {
+              "title": "电话",
+              "info": "176 6452 3883",
+              "links": [{ "href": "tel:17664523883" }]
+            },
+            "ja": {
+              "title": "電話",
+              "info": "080 6748 5678",
+              "links": [{ "href": "tel:08067485678" }]
+            },
+            "ko": {
+              "title": "전화",
+              "info": "+86 176 6452 3883",
+              "links": [{ "href": "tel:+8617664523883" }]
+            }
           }
         },
-
         {
-          "value": "mark.choi@email.com",
-          "links": [{ "href": "mailto:mark.choi@email.com" }],
+          "value": null,
+          "links": [{ "href": null }],
           "icon": {
             "img": null,
             "fa": "fa-solid fa-envelope",
             "faColors": { "bg": null, "fill": null }
           },
           "locales": {
-            "en": { "title": "E-mail" },
-            "ko": { "title": "이메일" }
+            "en": {
+              "title": "E-mail",
+              "info": "vickerszhu@gmail.com",
+              "links": [{ "href": "mailto:vickerszhu@gmail.com" }]
+            },
+            "zh": {
+              "title": "电子邮件",
+              "info": "vickerszhu@gmail.com",
+              "links": [{ "href": "mailto:vickerszhu@gmail.com" }]
+            },
+            "ja": {
+              "title": "メール",
+              "info": "vickerszhu@yahoo.co.jp",
+              "links": [{ "href": "mailto:vickerszhu@yahoo.co.jp" }]
+            },
+            "ko": {
+              "title": "이메일",
+              "info": "vickerszhu@gmail.com",
+              "links": [{ "href": "mailto:vickerszhu@gmail.com" }]
+            }
           }
         },
-
         {
-          "value": "@markchoi",
-          "links": [{ "href": "https://linkedin.com" }],
+          "value": "@VickersZhu",
+          "links": [
+            { "href": "https://www.linkedin.com/in/jiyi-zhu-924aba180/" }
+          ],
           "icon": {
             "img": null,
             "fa": "fa-brands fa-linkedin",
             "faColors": { "bg": null, "fill": null }
           },
           "locales": {
-            "en": { "title": "Linkedin" }
+            "en": { "title": "LinkedIn" },
+            "zh": { "title": "领英" },
+            "ja": { "title": "LinkedIn" },
+            "ko": { "title": "링크드인" }
           }
         },
-
         {
-          "value": "Mark Choi",
-          "links": [{ "href": "https://facebook.com" }],
+          "value": "@VickersZhu",
+          "links": [{ "href": "https://github.com/Vickers-Zhu" }],
           "icon": {
             "img": null,
-            "fa": "fa-brands fa-facebook",
+            "fa": "fa-brands fa-github",
             "faColors": { "bg": null, "fill": null }
           },
           "locales": {
-            "en": { "title": "Facebook" }
-          }
-        },
-
-        {
-          "value": "@markchoi",
-          "links": [{ "href": "https://instagram.com" }],
-          "icon": {
-            "img": null,
-            "fa": "fa-brands fa-instagram",
-            "faColors": { "bg": null, "fill": null }
-          },
-          "locales": {
-            "en": { "title": "Instagram" }
-          }
-        },
-
-        {
-          "value": "@markchoi",
-          "links": [{ "href": "https://tiktok.com" }],
-          "icon": {
-            "img": null,
-            "fa": "fa-brands fa-tiktok",
-            "faColors": { "bg": null, "fill": null }
-          },
-          "locales": {
-            "en": { "title": "TikTok" }
+            "en": { "title": "GitHub" },
+            "zh": { "title": "GitHub" },
+            "ja": { "title": "GitHub" },
+            "ko": { "title": "GitHub" }
           }
         }
       ]

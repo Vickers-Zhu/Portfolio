@@ -1,299 +1,261 @@
 {
-    "locales": {
-        "en": {
-            "title": "Awards",
-            "title_menu": "Achievements",
-            "title_long_prefix": "Here are my",
-            "title_long": "Career **Achievements**"
-        },
+  "locales": {
+    "en": {
+      "title": "Awards",
+      "title_menu": "Achievements",
+      "title_long_prefix": "Here are my",
+      "title_long": "Career **Achievements**"
+    },
+    "zh": {
+      "title": "奖项",
+      "title_menu": "成就",
+      "title_long_prefix": "以下是我的",
+      "title_long": "职业**成就**"
+    },
+    "ja": {
+      "title": "受賞歴",
+      "title_menu": "成果",
+      "title_long_prefix": "こちらが私の",
+      "title_long": "**キャリア成果**です"
+    },
+    "ko": {
+      "title": "경력 성과",
+      "title_menu": "경력 성과",
+      "title_long_prefix": "다음은",
+      "title_long": "**경력 성과**입니다"
+    }
+  },
 
-        "es": {
-            "title": "Logros",
-            "title_menu": "Logros",
-            "title_long_prefix": "Aquí están mis",
-            "title_long": "**Logros** Profesionales"
-        },
+  "articles": [
+    {
+      "id": "certifications",
+      "component": "ArticleCards",
+      "config": {},
+      "locales": {
+        "en": { "title": "Certifications" },
+        "zh": { "title": "认证" },
+        "ja": { "title": "認証" },
+        "ko": { "title": "인증서" }
+      },
 
-        "fr": {
-            "title": "Réalis",
-            "title_menu": "Réalisations",
-            "title_long_prefix": "Voici",
-            "title_long": "Mes **Réalisations**"
+      "items": [
+        {
+          "icon": {
+            "img": "images/pictures/certificate-icon-1.webp",
+            "fa": null,
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "09/13/2024",
+            "end": null
+          },
+          "links": [
+            {
+              "string": "see_certification",
+              "href": "files/基本情報技術者.pdf"
+            },
+            {
+              "string": "see_certification",
+              "href": "https://www.jitec.ipa.go.jp/"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "**IPA**",
+              "text": "Fundamental Information Technology Engineer (FE), a certification issued in Japan."
+            },
+            "zh": {
+              "text": "基本信息技术工程师 (FE)，由日本颁发的认证。"
+            },
+            "ja": {
+              "text": "基本情報技術者 (FE)"
+            },
+            "ko": {
+              "text": "기본 정보 기술자 (FE), 일본에서 발급된 인증입니다."
+            }
+          }
         },
-
-        "ko": {
-            "title": "경력 성과",
-            "title_menu": "경력 성과",
-            "title_long_prefix": "다음은",
-            "title_long": "**경력 성과**입니다"
+        {
+          "icon": {
+            "img": "images/pictures/place-3.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "02/14/2024",
+            "end": "03/03/2024"
+          },
+          "links": [
+            {
+              "string": "see_certification",
+              "href": "files/UC Davis Certificate.pdf"
+            },
+            {
+              "string": "see_certification",
+              "href": "https://www.ucdavis.edu/"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "Entrepreneurship Program",
+              "text": "Certification of completion for the Academic Experience and Entrepreneurship Program at UC Davis, focusing on entrepreneurial principles and practical academic applications."
+            },
+            "zh": {
+              "title": "创业课程",
+              "text": "加州大学戴维斯分校学术体验与创业课程结业证书，专注于创业原则和实践学术应用。"
+            },
+            "ja": {
+              "title": "起業プログラム",
+              "text": "カリフォルニア大学デービス校のアカデミック体験と起業プログラム修了証書。起業の原則と学術的応用に焦点を当てています。"
+            },
+            "ko": {
+              "title": "창업 프로그램",
+              "text": "캘리포니아 대학교 데이비스 학문 경험 및 창업 프로그램 수료증. 창업 원칙과 학문적 응용에 중점을 둡니다."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/certificate-icon-2.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "12/01/2023",
+            "end": null
+          },
+          "links": [
+            {
+              "string": "see_certification",
+              "href": "files/JLPT_N1.pdf"
+            },
+            {
+              "string": "see_certification",
+              "href": "https://www.jlpt.jp/"
+            }
+          ],
+          "locales": {
+            "en": {
+              "title": "JLPT N1",
+              "text": "The highest level of the Japanese Language Proficiency Test, certifying advanced proficiency in the Japanese language."
+            },
+            "zh": {
+              "title": "日语能力测试N1",
+              "text": "日语能力测试的最高级别，证明具有高级日语水平。"
+            },
+            "ja": {
+              "title": "日本語能力試験N1",
+              "text": "日本語能力試験の最高レベルで、高度な日本語能力を証明します。"
+            },
+            "ko": {
+              "title": "일본어 능력 시험 N1",
+              "text": "일본어 능력 시험의 최고 수준으로, 고급 일본어 실력을 인증합니다."
+            }
+          }
         }
+      ]
     },
 
-    "articles": [
-        {
-            "id": "certifications",
-            "component": "ArticleCards",
-            "config": {},
-            "locales": {
-                "en": { "title": "Certifications" },
-                "es": { "title": "Certificaciones" },
-                "fr": { "title": "Certifications" },
-                "ko": { "title": "인증서" }
-            },
+    {
+      "id": "awards",
+      "component": "ArticleThread",
+      "config": {},
+      "locales": {
+        "en": { "title": "Awards" },
+        "zh": { "title": "奖项" },
+        "ja": { "title": "受賞歴" },
+        "ko": { "title": "수상 내역" }
+      },
 
-            "items": [
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-life-ring",
-                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "12/01/2020",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.linuxfoundation.org/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "The **Linux Foundation**",
-                            "text": "Certified Kubernetes Administrator (CKA)"
-                        },
-                        "es": {
-                            "text": "Administrador Kubernetes Certificado (CKA)"
-                        },
-                        "fr": {
-                            "text": "Administrateur Kubernetes Certifié (CKA)"
-                        },
-                        "ko": {
-                            "text": "인증된 쿠버네티스 관리자 (CKA)"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-aws",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
-                    },
-                    "dates": {
-                        "start": "05/05/2021",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.aws.com/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Amazon** Web Services",
-                            "text": "AWS Certified Solutions Architect – Associate"
-                        },
-                        "es": {
-                            "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
-                        },
-                        "fr": {
-                            "text": "Architecte de Solutions Certifié AWS – Associé"
-                        },
-                        "ko": {
-                            "text": "AWS 인증 솔루션 아키텍트 – 어소시에이트"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-java",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "05/05/2022",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.oracle.com/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Oracle**",
-                            "text": "Certified Java Developer"
-                        },
-                        "es": {
-                            "text": "Desarrollador Java Certificado"
-                        },
-                        "fr": {
-                            "text": "Développeur Java Certifié"
-                        },
-                        "ko": {
-                            "text": "인증된 자바 개발자"
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-database",
-                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
-                    },
-                    "dates": {
-                        "start": "08/15/2023",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "see_certification", "href": "https://www.mongodb.com/" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**MongoDB** University",
-                            "text": "MongoDB Certified Developer"
-                        },
-                        "es": {
-                            "text": "Desarrollador Certificado en MongoDB"
-                        },
-                        "fr": {
-                            "text": "Développeur Certifié MongoDB"
-                        },
-                        "ko": {
-                            "text": "몽고디비 인증 개발자"
-                        }
-                    }
-                }
-            ]
+      "items": [
+        {
+          "dates": {
+            "start": "2023-10-01",
+            "end": "2024-03-31"
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "**Half Tuition Fee Reduction**",
+              "info": "Tohoku University",
+              "text": "Awarded a 50% tuition fee reduction for the 2nd semester of the 2023 academic year."
+            },
+            "zh": {
+              "title": "**学费减免 50%**",
+              "info": "东北大学",
+              "text": "获得 2023 学年第二学期学费减免 50%。"
+            },
+            "ja": {
+              "title": "**授業料半額免除**",
+              "info": "東北大学",
+              "text": "2023年度第2学期に授業料50％免除を受けました。"
+            },
+            "ko": {
+              "title": "**수업료 50% 감면**",
+              "info": "도호쿠 대학",
+              "text": "2023학년도 2학기 수업료의 50% 감면 혜택을 받았습니다."
+            }
+          }
         },
-
         {
-            "id": "awards",
-            "component": "ArticleThread",
-            "config": {},
-            "locales": {
-                "en": { "title": "Awards" },
-                "es": { "title": "Premios" },
-                "fr": { "title": "Récompenses" },
-                "ko": { "title": "수상 내역" }
+          "dates": {
+            "start": "2024-04-01",
+            "end": "2024-09-30"
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "**Half Tuition Fee Reduction**",
+              "info": "Tohoku University",
+              "text": "Awarded a 50% tuition fee reduction for the 1st semester of the 2024 academic year."
             },
-
-            "items": [
-                {
-                    "dates": {
-                        "start": "09/01/2019",
-                        "end": null
-                    },
-                    "links": [],
-                    "locales": {
-                        "en": {
-                            "title": "**Best Final Year Project** – Backend Optimization",
-                            "info": "MIT",
-                            "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
-                        },
-                        "es": {
-                            "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
-                            "info": "MIT",
-                            "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
-                        },
-                        "fr": {
-                            "title": "**Meilleur Projet de Fin d'Études** – Optimisation du Backend",
-                            "info": "MIT",
-                            "text": "Reconnu pour son travail innovant sur l'optimisation des systèmes backend pour les environnements cloud, avec des améliorations significatives des performances."
-                        },
-                        "ko": {
-                            "title": "**최우수 졸업 프로젝트** – 백엔드 최적화",
-                            "info": "MIT",
-                            "text": "클라우드 환경에서 백엔드 시스템을 최적화한 혁신적인 작업으로 성능을 크게 개선한 것으로 인정받았습니다."
-                        }
-                    }
-                },
-                {
-                    "dates": {
-                        "start": "05/01/2020",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "more_info", "href": "https://github.com/torvalds/linux" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Top Contributor** – Open Source Backend Project",
-                            "info": "GitHub",
-                            "text": "Awarded for contributing to an open-source backend framework that improved scalability and reduced latency."
-                        },
-                        "es": {
-                            "title": "**Contribuidor Destacado** – Proyecto de Backend de Código Abierto",
-                            "info": "GitHub",
-                            "text": "Premiado por su contribución a un framework de backend de código abierto que mejoró la escalabilidad y redujo la latencia."
-                        },
-                        "fr": {
-                            "title": "**Meilleur Contributeur** – Projet Backend Open Source",
-                            "info": "GitHub",
-                            "text": "Récompensé pour sa contribution à un cadre backend open source qui a amélioré l'évolutivité et réduit la latence."
-                        },
-                        "ko": {
-                            "title": "**최우수 기여자** – 오픈 소스 백엔드 프로젝트",
-                            "info": "GitHub",
-                            "text": "확장성을 개선하고 지연 시간을 줄인 오픈 소스 백엔드 프레임워크에 기여한 공로로 수상했습니다."
-                        }
-                    }
-                },
-                {
-                    "dates": {
-                        "start": "11/01/2021",
-                        "end": null
-                    },
-                    "links": [],
-                    "locales": {
-                        "en": {
-                            "title": "**1st Place** – Global API Design Challenge",
-                            "info": "API Developer Conference",
-                            "text": "Secured 1st place for developing a robust API with advanced features like real-time data processing and seamless integration."
-                        },
-                        "es": {
-                            "title": "**1er Lugar** – Desafío Global de Diseño de API",
-                            "info": "Conferencia de Desarrolladores de API",
-                            "text": "Obtuvo el 1er lugar por desarrollar una API robusta con funciones avanzadas como procesamiento de datos en tiempo real e integración sin problemas."
-                        },
-                        "fr": {
-                            "title": "**1ère Place** – Défi Mondial de Conception d'API",
-                            "info": "Conférence des Développeurs d'API",
-                            "text": "A remporté la 1ère place pour avoir développé une API robuste avec des fonctionnalités avancées comme le traitement des données en temps réel et l'intégration transparente."
-                        },
-                        "ko": {
-                            "title": "**1위** – 글로벌 API 디자인 챌린지",
-                            "info": "API 개발자 컨퍼런스",
-                            "text": "실시간 데이터 처리 및 원활한 통합과 같은 고급 기능을 갖춘 강력한 API를 개발하여 1위를 차지했습니다."
-                        }
-                    }
-                },
-                {
-                    "dates": {
-                        "start": "06/01/2023",
-                        "end": null
-                    },
-                    "links": [
-                        { "string": "more_info", "href": "https://google.com" }
-                    ],
-                    "locales": {
-                        "en": {
-                            "title": "**Best Backend Architecture** – Tech Innovator Awards",
-                            "info": "Tech Innovator Magazine",
-                            "text": "Recognized for designing an efficient and scalable backend architecture that improved system performance and reliability."
-                        },
-                        "es": {
-                            "title": "**Mejor Arquitectura de Backend** – Premios a los Innovadores Tecnológicos",
-                            "info": "Revista Tech Innovator",
-                            "text": "Reconocido por diseñar una arquitectura de backend eficiente y escalable que mejoró el rendimiento y la confiabilidad del sistema."
-                        },
-                        "fr": {
-                            "title": "**Meilleure Architecture Backend** – Prix de l'Innovateur Technologique",
-                            "info": "Magazine Tech Innovator",
-                            "text": "Reconnu pour avoir conçu une architecture backend efficace et évolutive qui a amélioré les performances et la fiabilité du système."
-                        },
-                        "ko": {
-                            "title": "**최우수 백엔드 아키텍처** – 기술 혁신자 어워드",
-                            "info": "Tech Innovator 매거진",
-                            "text": "시스템 성능과 안정성을 개선한 효율적이고 확장 가능한 백엔드 아키텍처 설계로 인정받았습니다."
-                        }
-                    }
-                }
-            ]
+            "zh": {
+              "title": "**学费减免 50%**",
+              "info": "东北大学",
+              "text": "获得 2024 学年第一学期学费减免 50%。"
+            },
+            "ja": {
+              "title": "**授業料半額免除**",
+              "info": "東北大学",
+              "text": "2024年度第1学期に授業料50％免除を受けました。"
+            },
+            "ko": {
+              "title": "**수업료 50% 감면**",
+              "info": "도호쿠 대학",
+              "text": "2024학년도 1학기 수업료의 50% 감면 혜택을 받았습니다."
+            }
+          }
+        },
+        {
+          "dates": {
+            "start": "2024-10-01",
+            "end": "2025-03-31"
+          },
+          "links": [],
+          "locales": {
+            "en": {
+              "title": "**Half Tuition Fee Reduction**",
+              "info": "Tohoku University",
+              "text": "Awarded a 50% tuition fee reduction for the 2nd semester of the 2024 academic year."
+            },
+            "zh": {
+              "title": "**学费减免 50%**",
+              "info": "东北大学",
+              "text": "获得 2024 学年第二学期学费减免 50%。"
+            },
+            "ja": {
+              "title": "**授業料半額免除**",
+              "info": "東北大学",
+              "text": "2024年度第2学期に授業料50％免除を受けました。"
+            },
+            "ko": {
+              "title": "**수업료 50% 감면**",
+              "info": "도호쿠 대학",
+              "text": "2024학년도 2학기 수업료의 50% 감면 혜택을 받았습니다."
+            }
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
