@@ -1,479 +1,690 @@
 {
-    "locales": {
-        "en": {
-            "title": "Portfolio",
-            "title_long_prefix": "Take a look at",
-            "title_long": "My **Portfolio**"
-        },
-
-        "es": {
-            "title": "Portafolio",
-            "title_long_prefix": "Explora",
-            "title_long": "Mi **Portafolio**"
-        },
-
-        "fr": {
-            "title": "Portfolio",
-            "title_long_prefix": "Découvrez",
-            "title_long": "Mon **Portfolio**"
-        },
-
-        "ko": {
-            "title": "포트폴리오",
-            "title_long_prefix": "이것은 내",
-            "title_long": "**포트폴리오**입니다"
-        }
+  "locales": {
+    "en": {
+      "title": "Portfolio",
+      "title_long_prefix": "Take a look at",
+      "title_long": "My **Portfolio**"
     },
+    "zh": {
+      "title": "作品集",
+      "title_long_prefix": "请浏览我的",
+      "title_long": "个人**作品集**"
+    },
+    "ja": {
+      "title": "ポートフォリオ",
+      "title_long_prefix": "ご覧ください",
+      "title_long": "私の**ポートフォリオ**"
+    },
+    "ko": {
+      "title": "포트폴리오",
+      "title_long_prefix": "이것은 내",
+      "title_long": "**포트폴리오**입니다"
+    }
+  },
 
-    "articles": [
+  "articles": [
+    {
+      "id": "portfolio",
+      "component": "ArticlePortfolio",
+      "config": {},
+      "locales": {},
+
+      "categories": [
         {
-            "id": "portfolio",
-            "component": "ArticlePortfolio",
-            "config": {},
-            "locales": {},
-
-            "categories": [
-                {
-                    "id": "apps",
-                    "locales": {
-                        "en": {"singular": "App", "plural": "Apps"},
-                        "es": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"},
-                        "ko": {"singular": "앱", "plural": "앱들"}
-                    }
-                },
-                {
-                    "id": "websites",
-                    "locales": {
-                        "en": {"singular": "Website", "plural": "Web"},
-                        "es": {"singular": "Sitio web", "plural": "Web"},
-                        "fr": {"singular": "Site web", "plural": "Web"},
-                        "ko": {"singular": "웹사이트", "plural": "웹"}
-                    }
-                },
-                {
-                    "id": "utilities",
-                    "locales": {
-                        "en": {"singular": "Utility", "plural": "Utilities"},
-                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
-                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
-                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
-                    }
-                }
-            ],
-
-            "items": [
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-3.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-github", "href": "https://github.com"},
-                        {"faIcon": "fa-brands fa-npm", "href": "https://npm.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=32XsfeIX_rM",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "BrainPulse",
-                            "text": "A <b>RESTful API</b> backend built with <b>Node.js</b>, designed for high-performance data processing and real-time event handling.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "es": {
-                            "title": "BrainPulse",
-                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "fr": {
-                            "title": "BrainPulse",
-                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
-                            "tags": ["API", "REST", "Backend"]
-                        },
-                        "ko": {
-                            "title": "BrainPulse",
-                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
-                            "tags": ["API", "REST", "Backend"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-7.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=TfgBHC5gvTI",
-                        "screenshots": {
-                            "aspectRatio": "9:16",
-                            "images": [
-                                "images/pictures/project-screenshot-1.webp",
-                                "images/pictures/project-screenshot-2.webp",
-                                "images/pictures/project-screenshot-3.webp",
-                                "images/pictures/project-screenshot-4.webp",
-                                "images/pictures/project-screenshot-5.webp"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "MailM8",
-                            "text": "A cross-platform email client built with <b>Flutter</b>, providing efficient communication with an intuitive UI for <b>managing emails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "es": {
-                            "title": "MailM8",
-                            "text": "Un cliente de correo electrónico multiplataforma construido con <b>Flutter</b>, que ofrece comunicación eficiente y una interfaz intuitiva para la <b>gestión de correos electrónicos</b>.",
-                            "tags": ["Flutter", "Correo", "Comunicación"]
-                        },
-                        "fr": {
-                            "title": "MailM8",
-                            "text": "Un client de messagerie multiplateforme construit avec <b>Flutter</b>, offrant une communication efficace et une interface intuitive pour <b>gérer les e-mails</b>.",
-                            "tags": ["Flutter", "E-mail", "Communication"]
-                        },
-                        "ko": {
-                            "title": "MailM8",
-                            "text": "<b>Flutter</b>로 구축된 크로스플랫폼 이메일 클라이언트로, 이메일 <b>관리</b>를 위한 직관적인 UI를 통해 효율적인 소통을 제공합니다.",
-                            "tags": ["Flutter", "이메일", "소통"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-6.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": "16:9",
-                            "images": [
-                                "images/pictures/project-screenshot-6.png",
-                                "images/pictures/project-screenshot-7.png",
-                                "images/pictures/project-screenshot-8.png"
-                            ]
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Stackers",
-                            "text": "A fully-featured productivity app developed with <b>React Native</b>, enabling users to organize tasks, notes, and projects across multiple devices. It offers <b>cloud sync</b>, intuitive UI, and collaboration features.",
-                            "tags": ["React", "Organization", "Notes"]
-                        },
-                        "es": {
-                            "title": "Stackers",
-                            "text": "Una app de productividad con todas las funciones, desarrollada con <b>React Native</b>, que permite a los usuarios organizar tareas, notas y proyectos en varios dispositivos. Ofrece <b>sincronización en la nube</b>, interfaz intuitiva y características de colaboración.",
-                            "tags": ["React", "Organización", "Notas"]
-                        },
-                        "fr": {
-                            "title": "Stackers",
-                            "text": "Une application de productivité complète développée avec <b>React Native</b>, permettant aux utilisateurs d'organiser tâches, notes et projets sur plusieurs appareils. Elle offre <b>synchronisation cloud</b>, interface intuitive et fonctionnalités de collaboration.",
-                            "tags": ["React", "Organisation", "Notes"]
-                        },
-                        "ko": {
-                            "title": "Stackers",
-                            "text": "<b>React Native</b>로 개발된 기능이 풍부한 생산성 앱으로, 사용자가 여러 기기에서 작업, 메모, 프로젝트를 <b>클라우드 동기화</b>와 직관적인 UI로 관리할 수 있습니다.",
-                            "tags": ["React", "조직", "메모"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/project-logo-1.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
-                        },
-                        "es": {
-                            "title": "SmartCash",
-                            "text": "Un sitio web financiero construido con <b>Next.js</b>, que permite a los usuarios <b>seguir presupuestos</b> y gestionar su dinero con gráficos interactivos e ideas.",
-                            "tags": ["Next.js", "Finanzas", "Dinero"]
-                        },
-                        "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
-                        },
-                        "ko": {
-                            "title": "SmartCash",
-                            "text": "<b>Next.js</b>로 구축된 금융 웹사이트로, 사용자가 <b>예산을 추적</b>하고 상호작용하는 차트와 통찰력으로 자금을 관리할 수 있습니다.",
-                            "tags": ["Next.js", "금융", "돈"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "images/pictures/project-logo-2.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Snappy",
-                            "text": "A powerful photography app designed with <b>Swift</b> for iOS and Android, featuring <b>advanced camera controls</b>, editing tools, and AI-powered filters for quick photo enhancements.",
-                            "tags": ["Swift", "Photography", "Camera"]
-                        },
-                        "es": {
-                            "title": "Snappy",
-                            "text": "Una app de fotografía potente diseñada con <b>Swift</b> para iOS y Android, con <b>controles avanzados de cámara</b>, herramientas de edición y filtros potenciados por IA para mejoras rápidas de fotos.",
-                            "tags": ["Swift", "Fotografía", "Cámara"]
-                        },
-                        "fr": {
-                            "title": "Snappy",
-                            "text": "Une application de photographie puissante conçue avec <b>Swift</b> pour iOS et Android, avec des <b>contrôles avancés de la caméra</b>, des outils d'édition et des filtres IA pour des améliorations rapides des photos.",
-                            "tags": ["Swift", "Photographie", "Caméra"]
-                        },
-                        "ko": {
-                            "title": "Snappy",
-                            "text": "<b>Swift</b>로 설계된 강력한 사진 앱으로, iOS 및 Android에서 <b>고급 카메라 제어</b>, 편집 도구, AI 기반 필터를 통해 빠르게 사진을 보정할 수 있습니다.",
-                            "tags": ["Swift", "사진", "카메라"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/project-logo-5.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://sweetscoops.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
-                        },
-                        "es": {
-                            "title": "Sweet Scoops",
-                            "text": "Un sitio web de recetas construido con <b>WordPress</b> y WooCommerce, con una rica colección de <b>recetas de postres</b> y una plataforma de comercio electrónico integrada.",
-                            "tags": ["WooCommerce", "Comida", "Postres"]
-                        },
-                        "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
-                        },
-                        "ko": {
-                            "title": "Sweet Scoops",
-                            "text": "<b>WordPress</b>와 WooCommerce로 구축된 레시피 웹사이트로, 풍부한 <b>디저트 레시피</b> 모음과 통합된 전자상거래 플랫폼을 제공합니다.",
-                            "tags": ["WooCommerce", "음식", "디저트"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": {"bg": "#111", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://rockverse.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "RockVerse",
-                            "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-                            "tags": ["Django", "Music", "Rock"]
-                        },
-                        "es": {
-                            "title": "RockVerse",
-                            "text": "Un sitio web dinámico de música y entretenimiento desarrollado con <b>Django</b>, que muestra noticias de música rock, eventos y <b>contenido en streaming</b>.",
-                            "tags": ["Django", "Música", "Rock"]
-                        },
-                        "fr": {
-                            "title": "RockVerse",
-                            "text": "Un site web de musique et de divertissement dynamique développé avec <b>Django</b>, mettant en avant des nouvelles, événements et <b>contenu en streaming</b> sur le rock.",
-                            "tags": ["Django", "Musique", "Rock"]
-                        },
-                        "ko": {
-                            "title": "RockVerse",
-                            "text": "<b>Django</b>로 개발된 동적인 음악 및 엔터테인먼트 웹사이트로, 록 음악 뉴스, 이벤트 및 <b>스트리밍 콘텐츠</b>를 제공합니다.",
-                            "tags": ["Django", "음악", "록"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "utilities",
-                    "icon": {
-                        "img": "images/pictures/project-logo-4.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-
-                    "links": [
-                    ],
-
-                    "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0",
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "Soccer Analytics",
-                            "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-                            "tags": ["AI", "Prediction", "Soccer"]
-                        },
-                        "es": {
-                            "title": "Soccer Analytics",
-                            "text": "Una plataforma de análisis deportivo impulsada por IA construida con <b>Python</b> y <b>TensorFlow</b>, que ofrece <b>predicciones</b> detalladas de fútbol y herramientas de gestión de equipos.",
-                            "tags": ["IA", "Predicción", "Fútbol"]
-                        },
-                        "fr": {
-                            "title": "Soccer Analytics",
-                            "text": "Une plateforme d'analytique sportive alimentée par IA construite avec <b>Python</b> et <b>TensorFlow</b>, offrant des <b>prédictions</b> détaillées pour le football et des outils de gestion d'équipe.",
-                            "tags": ["IA", "Prédiction", "Football"]
-                        },
-                        "ko": {
-                            "title": "Soccer Analytics",
-                            "text": "<b>Python</b> 및 <b>TensorFlow</b>로 구축된 AI 기반 스포츠 분석 플랫폼으로, 축구에 대한 <b>예측</b> 및 팀 관리 도구를 제공합니다.",
-                            "tags": ["AI", "예측", "축구"]
-                        }
-                    }
-                },
-
-                {
-                    "categoryId": "apps",
-                    "icon": {
-                        "img": "",
-                        "fa": "fa-solid fa-truck-fast",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-
-                    "links": [
-                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
-                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"},
-                        {"faIcon": "fa-brands fa-windows", "href": "https://windows.com"}
-                    ],
-
-                    "media": {
-                        "youtubeVideo": null,
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-
-                    "locales": {
-                        "en": {
-                            "title": "QuickDrop",
-                            "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-                            "tags": ["React Native", "Delivery", "Real-Time Tracking"]
-                        },
-                        "es": {
-                            "title": "QuickDrop",
-                            "text": "Una app de entregas multiplataforma construida con <b>React Native</b> y un backend de <b>Node.js</b>, con <b>seguimiento en tiempo real</b> e integración perfecta en múltiples plataformas.",
-                            "tags": ["React Native", "Entrega", "Seguimiento"]
-                        },
-                        "fr": {
-                            "title": "QuickDrop",
-                            "text": "Une application de livraison multiplateforme construite avec <b>React Native</b> et un backend <b>Node.js</b>, avec <b>suivi en temps réel</b> et intégration fluide sur plusieurs plateformes.",
-                            "tags": ["React Native", "Livraison", "Suivi"]
-                        },
-                        "ko": {
-                            "title": "QuickDrop",
-                            "text": "<b>React Native</b>와 <b>Node.js</b> 백엔드로 구축된 크로스플랫폼 배송 앱으로, <b>실시간 추적</b> 및 여러 플랫폼과의 원활한 통합을 제공합니다.",
-                            "tags": ["React Native", "배송", "실시간 추적"]
-                        }
-                    }
-                }
-            ]
+          "id": "apps",
+          "locales": {
+            "en": { "singular": "App", "plural": "Apps" },
+            "zh": { "singular": "应用", "plural": "应用程序" },
+            "ja": { "singular": "アプリ", "plural": "アプリ" },
+            "ko": { "singular": "앱", "plural": "앱들" }
+          }
+        },
+        {
+          "id": "websites",
+          "locales": {
+            "en": { "singular": "Website", "plural": "Web" },
+            "zh": { "singular": "网站", "plural": "网页" },
+            "ja": { "singular": "ウェブサイト", "plural": "ウェブ" },
+            "ko": { "singular": "웹사이트", "plural": "웹" }
+          }
+        },
+        {
+          "id": "utilities",
+          "locales": {
+            "en": { "singular": "Utility", "plural": "Utilities" },
+            "zh": { "singular": "工具", "plural": "实用工具" },
+            "ja": { "singular": "ユーティリティ", "plural": "ユーティリティ" },
+            "ko": { "singular": "유틸리티", "plural": "유틸리티들" }
+          }
+        },
+        {
+          "id": "games",
+          "locales": {
+            "en": { "singular": "Game", "plural": "Games" },
+            "zh": { "singular": "游戏", "plural": "游戏" },
+            "ja": { "singular": "ゲーム", "plural": "ゲーム" },
+            "ko": { "singular": "게임", "plural": "게임들" }
+          }
         }
-    ]
+      ],
+
+      "items": [
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-1.png",
+            "fa": "",
+            "faColors": { "bg": "#4CAF50", "fill": "#FFFFFF" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/SeatMasterJS"
+            },
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://www.canva.com/design/DAGTbWeDwUU/-bxkJc8R5iJIFMBXm9L4OA/edit?utm_content=DAGTbWeDwUU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": [
+                "images/pictures/project-screenshot-1.png",
+                "images/pictures/project-screenshot-2.png",
+                "images/pictures/project-screenshot-3.png",
+                "images/pictures/project-screenshot-4.png"
+              ]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "SeatMasterJS",
+              "text": "An intuitive iOS app built with React Native for managing and reserving seats or tables in 3D. Enhance your event or venue management with a sleek design and user-friendly interaction.",
+              "tags": ["React Native", "Seat Management", "3D", "Reservation"]
+            },
+            "zh": {
+              "title": "SeatMasterJS",
+              "text": "一款基于React Native开发的直观iOS应用，支持3D管理和预定座位或桌子。通过简洁的设计和用户友好的交互，提升您的活动或场地管理体验。",
+              "tags": ["React Native", "座位管理", "3D", "预定"]
+            },
+            "ja": {
+              "title": "SeatMasterJS",
+              "text": "React Nativeで構築された3Dで座席やテーブルを管理・予約できる直感的なiOSアプリ。洗練されたデザインと使いやすい操作で、イベントや会場管理を強化します。",
+              "tags": ["React Native", "座席管理", "3D", "予約"]
+            },
+            "ko": {
+              "title": "SeatMasterJS",
+              "text": "React Native로 제작된 3D 좌석 및 테이블 관리 및 예약을 위한 직관적인 iOS 앱입니다. 세련된 디자인과 사용자 친화적인 인터페이스로 이벤트나 장소 관리를 향상시킵니다.",
+              "tags": ["React Native", "좌석 관리", "3D", "예약"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/project-logo-4.jpg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/gksjyouhou"
+            },
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://www.canva.com/design/DAF6s7AyRws/NvWB3i9pfiqXCrl7vBDDmA/edit?utm_content=DAF6s7AyRws&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": ["images/pictures/project-screenshot-6.png"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "AI Candidates Match",
+              "text": "An AI-powered chatbot utilizing Cohere RAG and ChatGPT RAG models, built with Python3, to recommend suitable employees from a database. Users can input prompts to find the right candidates efficiently.",
+              "tags": ["Python3", "AI", "Chatbot", "Recruitment"]
+            },
+            "zh": {
+              "title": "AI候选人匹配",
+              "text": "一个使用Python3开发的基于Cohere RAG和ChatGPT RAG模型的AI聊天机器人，可从数据库中推荐合适的员工。用户可以输入提示，快速找到合适的候选人。",
+              "tags": ["Python3", "AI", "聊天机器人", "招聘"]
+            },
+            "ja": {
+              "title": "AI候補者マッチング",
+              "text": "Python3で構築されたCohere RAGおよびChatGPT RAGモデルを活用したAIチャットボットで、データベースから適切な従業員を推薦します。ユーザーはプロンプトを入力して、効率的に適切な候補者を見つけることができます。",
+              "tags": ["Python3", "AI", "チャットボット", "採用"]
+            },
+            "ko": {
+              "title": "AI 후보자 매칭",
+              "text": "Python3으로 개발된 Cohere RAG 및 ChatGPT RAG 모델을 활용하여 데이터베이스에서 적합한 직원을 추천하는 AI 기반 챗봇입니다. 사용자는 프롬프트를 입력하여 적합한 후보자를 효율적으로 찾을 수 있습니다.",
+              "tags": ["Python3", "AI", "챗봇", "채용"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/project-logo-2.jpeg",
+            "fa": "",
+            "faColors": { "bg": "#1E90FF", "fill": "#FFFFFF" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/UE5_simulation"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": ["images/pictures/project-screenshot-5.png"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Flock Simulations",
+              "text": "A computer simulation project leveraging Unreal Engine 5 to explore and simulate the dynamic spatial relationships and behaviors of flocks. Developed using C++ and C#, this project showcases advanced simulation capabilities and is continuously updated.",
+              "tags": ["Unreal Engine", "Simulation", "C++", "C#"]
+            },
+            "zh": {
+              "title": "鸟群模拟",
+              "text": "一个利用 Unreal Engine 5 构建的计算机模拟项目，旨在探索和模拟鸟群的动态空间关系和行为。使用 C++ 和 C# 开发，该项目展示了先进的模拟能力，并在持续更新中。",
+              "tags": ["Unreal Engine", "模拟", "C++", "C#"]
+            },
+            "ja": {
+              "title": "群れシミュレーション",
+              "text": "Unreal Engine 5 を活用して、群れの動的な空間関係や行動をシミュレートするために開発されたコンピュータシミュレーションプロジェクトです。C++ と C# で開発され、先進的なシミュレーション能力を備えており、継続的に更新されています。",
+              "tags": ["Unreal Engine", "シミュレーション", "C++", "C#"]
+            },
+            "ko": {
+              "title": "떼 시뮬레이션",
+              "text": "Unreal Engine 5를 활용하여 떼의 동적 공간 관계와 행동을 시뮬레이션하도록 설계된 컴퓨터 시뮬레이션 프로젝트입니다. C++와 C#로 개발되었으며, 고급 시뮬레이션 기능을 보여주며 지속적으로 업데이트되고 있습니다.",
+              "tags": ["Unreal Engine", "시뮬레이션", "C++", "C#"]
+            }
+          }
+        },
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-3.jpg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/yuehanyangbirthday"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "null",
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "MemeShare",
+              "text": "A fun and engaging meme-sharing app that allows users to create, view, and share memes with friends. Users can add images, text, and titles to their memes, making it easy to spread laughter.",
+              "tags": ["Memes", "Social", "Entertainment"]
+            },
+            "zh": {
+              "title": "表情分享",
+              "text": "一个有趣的表情分享应用，允许用户创建、查看和与朋友分享表情。用户可以为他们的表情添加图片、文字和标题，轻松传播欢乐。",
+              "tags": ["表情", "社交", "娱乐"]
+            },
+            "ja": {
+              "title": "ミームシェア",
+              "text": "ユーザーがミームを作成、閲覧、友達と共有できる楽しいミーム共有アプリ。画像、テキスト、タイトルを追加して、笑いを広めることができます。",
+              "tags": ["ミーム", "ソーシャル", "エンターテインメント"]
+            },
+            "ko": {
+              "title": "밈쉐어",
+              "text": "사용자가 밈을 만들고, 보고, 친구들과 공유할 수 있는 재미있고 매력적인 밈 공유 앱입니다. 이미지, 텍스트, 제목을 추가하여 웃음을 쉽게 전파할 수 있습니다.",
+              "tags": ["밈", "소셜", "엔터테인먼트"]
+            }
+          }
+        },
+        {
+          "categoryId": "websites",
+          "icon": {
+            "img": "images/pictures/project-logo-5.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/backpropagation-color"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Backpropagation Color",
+              "text": "A React application that demonstrates the backpropagation algorithm for color recognition using neural networks.",
+              "tags": ["React", "Backpropagation", "Color Recognition"]
+            },
+            "zh": {
+              "title": "反向传播颜色",
+              "text": "一个使用神经网络进行颜色识别的反向传播算法的React应用程序。",
+              "tags": ["React", "反向传播", "颜色识别"]
+            },
+            "ja": {
+              "title": "バックプロパゲーションカラー",
+              "text": "ニューラルネットワークを使用した色認識のためのバックプロパゲーションアルゴリズムを示すReactアプリケーション。",
+              "tags": ["React", "バックプロパゲーション", "色認識"]
+            },
+            "ko": {
+              "title": "역전파 색상",
+              "text": "신경망을 사용하여 색상 인식을 위한 역전파 알고리즘을 보여주는 React 애플리케이션입니다.",
+              "tags": ["React", "역전파", "색상 인식"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/project-logo-6.jpg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/PwdGenerator_WPF"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Password Generator",
+              "text": "A Windows Presentation Foundation (WPF) application developed in C# for generating secure and customizable passwords.",
+              "tags": ["WPF", "C#", "Password Generator"]
+            },
+            "zh": {
+              "title": "密码生成器",
+              "text": "一个使用C#开发的Windows Presentation Foundation (WPF)应用程序，用于生成安全且可定制的密码。",
+              "tags": ["WPF", "C#", "密码生成器"]
+            },
+            "ja": {
+              "title": "パスワードジェネレーター",
+              "text": "C#で開発されたWindows Presentation Foundation (WPF)アプリケーションで、安全でカスタマイズ可能なパスワードを生成します。",
+              "tags": ["WPF", "C#", "パスワードジェネレーター"]
+            },
+            "ko": {
+              "title": "비밀번호 생성기",
+              "text": "C#로 개발된 Windows Presentation Foundation (WPF) 응용 프로그램으로, 안전하고 사용자 정의 가능한 비밀번호를 생성합니다.",
+              "tags": ["WPF", "C#", "비밀번호 생성기"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/project-logo-7.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/BigTask2"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "City Route Finder",
+              "text": "A C# application that calculates routes between cities, considering factors like travel time, cost, and transportation modes (car or train). It allows users to select starting and destination cities, choose algorithms (DFS, BFS, Dijkstra) for route selection, and apply filters such as minimum population and restaurant availability.",
+              "tags": ["C#", "Route Planning", "Algorithms"]
+            },
+            "zh": {
+              "title": "城市路线查找器",
+              "text": "一个使用C#开发的应用程序，用于计算城市之间的路线，考虑旅行时间、费用和交通方式（汽车或火车）等因素。它允许用户选择起始和目的地城市，选择用于路线选择的算法（DFS、BFS、Dijkstra），并应用诸如最小人口和餐馆可用性等过滤器。",
+              "tags": ["C#", "路线规划", "算法"]
+            },
+            "ja": {
+              "title": "シティルートファインダー",
+              "text": "C#で開発されたアプリケーションで、都市間のルートを計算し、移動時間、費用、交通手段（車または電車）などの要素を考慮します。ユーザーは出発地と目的地の都市を選択し、ルート選択のアルゴリズム（DFS、BFS、ダイクストラ）を選び、最小人口やレストランの有無などのフィルターを適用できます。",
+              "tags": ["C#", "ルート計画", "アルゴリズム"]
+            },
+            "ko": {
+              "title": "도시 경로 찾기",
+              "text": "C#으로 개발된 애플리케이션으로, 도시 간의 경로를 계산하며 이동 시간, 비용, 교통 수단(자동차 또는 기차) 등의 요소를 고려합니다. 사용자는 출발 도시와 목적 도시를 선택하고, 경로 선택을 위한 알고리즘(DFS, BFS, 다익스트라)을 선택하며, 최소 인구수 및 레스토랑 유무와 같은 필터를 적용할 수 있습니다.",
+              "tags": ["C#", "경로 계획", "알고리즘"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/project-logo-7.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/RentHouse_Database"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "RentHouse Database",
+              "text": "A C# application designed to manage rental house information, including tenant details, rental agreements, and property listings.",
+              "tags": ["C#", "Database", "Rental Management"]
+            },
+            "zh": {
+              "title": "租房数据库",
+              "text": "一个使用C#开发的应用程序，用于管理租房信息，包括租户详情、租赁协议和房产列表。",
+              "tags": ["C#", "数据库", "租赁管理"]
+            },
+            "ja": {
+              "title": "レンタルハウスデータベース",
+              "text": "C#で開発されたアプリケーションで、テナントの詳細、賃貸契約、物件リストなどのレンタルハウス情報を管理します。",
+              "tags": ["C#", "データベース", "レンタル管理"]
+            },
+            "ko": {
+              "title": "렌트하우스 데이터베이스",
+              "text": "C#으로 개발된 애플리케이션으로, 세입자 정보, 임대 계약, 부동산 목록 등 임대 주택 정보를 관리합니다.",
+              "tags": ["C#", "데이터베이스", "임대 관리"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/project-logo-8.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/SchoolGuide_DataStructure"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "School Guide",
+              "text": "A C and C++ application that provides guidance and information about school facilities and resources.",
+              "tags": ["C", "C++", "School Guide"]
+            },
+            "zh": {
+              "title": "校园指南",
+              "text": "一个使用C和C++开发的应用程序，提供关于学校设施和资源的指导和信息。",
+              "tags": ["C", "C++", "校园指南"]
+            },
+            "ja": {
+              "title": "学校ガイド",
+              "text": "CとC++で開発されたアプリケーションで、学校の施設やリソースに関するガイダンスと情報を提供します。",
+              "tags": ["C", "C++", "学校ガイド"]
+            },
+            "ko": {
+              "title": "학교 가이드",
+              "text": "C와 C++로 개발된 애플리케이션으로, 학교 시설 및 자원에 대한 안내와 정보를 제공합니다.",
+              "tags": ["C", "C++", "학교 가이드"]
+            }
+          }
+        },
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-6.jpg",
+            "fa": "",
+            "faColors": { "bg": "#4CAF50", "fill": "#FFFFFF" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/RoomPlanner_Winform"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "RoomPlanner",
+              "text": "A Windows Forms application developed in C# for designing and visualizing room layouts. Features include adding furniture, drawing walls, and saving/loading blueprints.",
+              "tags": ["C#", "Windows Forms", "Room Design"]
+            },
+            "zh": {
+              "title": "房间规划器",
+              "text": "一个使用C#开发的Windows Forms应用程序，用于设计和可视化房间布局。功能包括添加家具、绘制墙壁以及保存/加载蓝图。",
+              "tags": ["C#", "Windows Forms", "房间设计"]
+            },
+            "ja": {
+              "title": "ルームプランナー",
+              "text": "C#で開発されたWindows Formsアプリケーションで、部屋のレイアウトを設計・可視化します。家具の追加、壁の描画、ブループリントの保存/読み込みなどの機能があります。",
+              "tags": ["C#", "Windows Forms", "部屋デザイン"]
+            },
+            "ko": {
+              "title": "룸플래너",
+              "text": "C#로 개발된 Windows Forms 애플리케이션으로, 방 레이아웃을 설계하고 시각화합니다. 가구 추가, 벽 그리기, 청사진 저장/로드 등의 기능을 제공합니다.",
+              "tags": ["C#", "Windows Forms", "방 디자인"]
+            }
+          }
+        },
+        {
+          "categoryId": "games",
+          "icon": {
+            "img": "images/pictures/project-logo-9.png",
+            "fa": "",
+            "faColors": { "bg": "#000000", "fill": "#FFFFFF" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/WinAPI_Game"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "WinAPI Game",
+              "text": "A classic 'Snake' game implemented in C++ using the Windows API. Navigate the snake to collect food items, growing longer with each item consumed. Avoid collisions with the walls or the snake's own body to continue playing.",
+              "tags": ["C++", "WinAPI", "Game Development"]
+            },
+            "zh": {
+              "title": "WinAPI 游戏",
+              "text": "使用 Windows API 用 C++ 实现的经典“贪吃蛇”游戏。引导蛇收集食物，每吃一个食物蛇会变长。避免撞到墙壁或蛇自己的身体以继续游戏。",
+              "tags": ["C++", "WinAPI", "游戏开发"]
+            },
+            "ja": {
+              "title": "WinAPI ゲーム",
+              "text": "C++ を使用して Windows API で実装されたクラシックな「スネーク」ゲーム。蛇を操作して食べ物を集め、食べるたびに長くなります。壁や自分の体に衝突しないように注意してください。",
+              "tags": ["C++", "WinAPI", "ゲーム開発"]
+            },
+            "ko": {
+              "title": "WinAPI 게임",
+              "text": "C++로 Windows API를 사용하여 구현된 고전적인 '뱀' 게임입니다. 뱀을 조종하여 음식을 모으고, 먹을 때마다 길어집니다. 벽이나 자신의 몸과의 충돌을 피하세요.",
+              "tags": ["C++", "WinAPI", "게임 개발"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/project-logo-10.webp",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/LeavesSegmentation"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Leaves Segmentation",
+              "text": "A Python-based utility employing OpenCV for leaf segmentation in images. This tool facilitates the analysis of plant growth and health by accurately isolating leaf structures.",
+              "tags": ["Python", "OpenCV", "Image Processing"]
+            },
+            "zh": {
+              "title": "叶片分割",
+              "text": "一个基于 Python 的工具，使用 OpenCV 对图像中的叶片进行分割。该工具通过准确分离叶片结构，帮助分析植物的生长和健康状况。",
+              "tags": ["Python", "OpenCV", "图像处理"]
+            },
+            "ja": {
+              "title": "リーフセグメンテーション",
+              "text": "OpenCV を用いて画像内の葉をセグメント化する Python ベースのユーティリティです。葉の構造を正確に分離することで、植物の成長と健康の分析を支援します。",
+              "tags": ["Python", "OpenCV", "画像処理"]
+            },
+            "ko": {
+              "title": "잎 분할",
+              "text": "OpenCV를 사용하여 이미지에서 잎을 분할하는 Python 기반 유틸리티입니다. 잎 구조를 정확하게 분리하여 식물의 성장과 건강 상태를 분석하는 데 도움이 됩니다.",
+              "tags": ["Python", "OpenCV", "이미지 처리"]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
+            "img": "images/pictures/project-logo-11.png",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/ComputerGraphics"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Computer Graphics Projects",
+              "text": "A collection of computer graphics projects demonstrating various techniques, including 3D scene rendering, clipping and filling algorithms, and Python-based graphics implementations.",
+              "tags": ["Computer Graphics", "3D Rendering", "Python"]
+            },
+            "zh": {
+              "title": "计算机图形学项目",
+              "text": "一组计算机图形学项目，展示了包括3D场景渲染、裁剪和填充算法以及基于Python的图形实现等各种技术。",
+              "tags": ["计算机图形学", "3D渲染", "Python"]
+            },
+            "ja": {
+              "title": "コンピュータグラフィックスプロジェクト",
+              "text": "3Dシーンレンダリング、クリッピングとフィリングアルゴリズム、Pythonベースのグラフィックス実装など、さまざまな技術を示すコンピュータグラフィックスプロジェクトのコレクション。",
+              "tags": ["コンピュータグラフィックス", "3Dレンダリング", "Python"]
+            },
+            "ko": {
+              "title": "컴퓨터 그래픽스 프로젝트",
+              "text": "3D 장면 렌더링, 클리핑 및 채우기 알고리즘, Python 기반 그래픽 구현 등 다양한 기술을 보여주는 컴퓨터 그래픽스 프로젝트 모음입니다.",
+              "tags": ["컴퓨터 그래픽스", "3D 렌더링", "Python"]
+            }
+          }
+        },
+        {
+          "categoryId": "games",
+          "icon": {
+            "img": "images/pictures/project-logo-12.png",
+            "fa": "",
+            "faColors": { "bg": "#FF5733", "fill": "#FFFFFF" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/Software-Engineering-2"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": null,
+              "images": []
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "The Project Game",
+              "text": "A real-time board game simulation for competitive project management. Played by two teams on a distributed IT system, it emphasizes strategic resource allocation, team collaboration, and task execution. Implements advanced communication and knowledge exchange protocols.",
+              "tags": ["Game", "Real-Time", "Collaboration"]
+            },
+            "zh": {
+              "title": "项目游戏",
+              "text": "一个实时的棋盘游戏模拟，用于模拟竞争性的项目管理。由两支队伍在分布式IT系统上进行游戏，强调战略资源分配、团队协作和任务执行。实现了先进的通信和知识交换协议。",
+              "tags": ["游戏", "实时", "协作"]
+            },
+            "ja": {
+              "title": "プロジェクトゲーム",
+              "text": "競争的なプロジェクト管理を模擬するリアルタイムボードゲーム。2つのチームが分散型ITシステム上でプレイし、戦略的リソース割り当て、チーム協力、タスク実行を強調しています。高度な通信および知識交換プロトコルを実装。",
+              "tags": ["ゲーム", "リアルタイム", "協力"]
+            },
+            "ko": {
+              "title": "프로젝트 게임",
+              "text": "경쟁적인 프로젝트 관리를 시뮬레이션하는 실시간 보드 게임입니다. 두 팀이 분산된 IT 시스템에서 플레이하며, 전략적 자원 할당, 팀 협업, 작업 실행을 강조합니다. 고급 통신 및 지식 교환 프로토콜을 구현했습니다.",
+              "tags": ["게임", "실시간", "협업"]
+            }
+          }
+        }
+      ]
+    }
+  ]
 }
