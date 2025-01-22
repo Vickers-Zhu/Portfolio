@@ -44,8 +44,8 @@
       },
       "locales": {
         "en": { "title": "Or if you **prefer**..." },
-        "es": { "title": "O si **prefieres**..." },
-        "fr": { "title": "Ou si vous **préférez**..." },
+        "cn": { "title": "或者如果您**更喜欢**..." },
+        "jp": { "title": "または、**お好み**で..." },
         "ko": { "title": "또는 **원하시면**..." }
       },
 
