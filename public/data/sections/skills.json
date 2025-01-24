@@ -715,6 +715,33 @@
               "info": "웹을 위한 3D 그래픽 및 시각화 개발."
             }
           }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-gamepad",
+            "faColors": { "bg": "#00008B", "fill": "#FFF" }
+          },
+          "value": 70,
+          "dates": { "start": "2016-12-01" },
+          "locales": {
+            "en": {
+              "title": "Unity",
+              "info": "Developing interactive 3D and 2D games and experiences."
+            },
+            "zh": {
+              "title": "Unity",
+              "info": "开发交互式三维和二维游戏与体验。"
+            },
+            "ja": {
+              "title": "Unity",
+              "info": "インタラクティブな3Dおよび2Dゲームや体験を開発。"
+            },
+            "ko": {
+              "title": "Unity",
+              "info": "인터랙티브 3D 및 2D 게임 및 경험 개발."
+            }
+          }
         }
       ]
     },
