@@ -114,15 +114,41 @@ function Preloader({children}) {
             {visible && (
                 <div className={`loader loader-${status === Status.ANIMATING || status === Status.SHOWN ? 'visible' : 'hidden'}`}>
                     <div className={`loader-content text-white`}>
+                        <div className={`spooky-house ${spinnerClass}`}>
+                            <div className="content-circle">
+                                <div className="house">
+                                    <div className="porch"></div>
+                                    <div className="first-floor"></div>
+                                    <div className="second-floor"></div>
+                                    <div className="roof"></div>
+                                    <div className="door"></div>
+                                    <div className="small-windows"></div>
+                                    <div className="big-window"></div>
+                                    <div className="frames"></div>
+                                </div>
+                                <div className="moon"></div>
+                                <div className="rain">
+                                    <div className="dropOne"></div>
+                                    <div className="dropTwo"></div>
+                                    <div className="dropThree"></div>
+                                    <div className="dropFour"></div>
+                                    <div className="dropFive"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <img src={utils.resolvePath(`/images/svg/logo.svg`)}
+                             onLoad={() => {setDidLoadLogo(true)}}
+                             style={{display: 'none'}}
+                             alt={`logo`}/>
                         <img src={utils.resolvePath(`/images/svg/pacman.svg`)}
                              onLoad={() => {setDidLoadSvg(true)}}
-                             className={`spinner ${spinnerClass}`}
+                             style={{display: 'none'}}
                              alt={`loader`}/>
 
                         <div className={`loader-content-info ${contentInfoClass}`}>
                             <div className={`title-wrapper`}>
                                 <img src={utils.resolvePath(`/images/svg/logo.svg`)}
-                                     onLoad={() => {setDidLoadLogo(true)}}
                                      className={`logo me-3`}
                                      alt={`logo`}/>
                                 <h5 dangerouslySetInnerHTML={{__html: title}}/>
