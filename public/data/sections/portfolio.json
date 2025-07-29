@@ -124,6 +124,81 @@
         {
           "categoryId": "utilities",
           "icon": {
+            "img": "images/pictures/project-logo-13.png",
+            "fa": "",
+            "faColors": { "bg": "#FF6B35", "fill": "#FFFFFF" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/candidate-matching-system"
+            },
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://candidate-matching-system.vercel.app/"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": ["images/pictures/project-screenshot-7.png"]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Candidate Matching System",
+              "text": "An AI-powered web application built with Next.js 15 and AWS serverless architecture for IT engineer candidate evaluation and project matching. Leverages Groq API (Qwen3-32B), Pinecone vector search, DynamoDB, and Cohere embeddings to intelligently match candidates based on required skills and preferred qualifications for specific project requirements.",
+              "tags": [
+                "Next.js",
+                "Groq API",
+                "AWS Serverless",
+                "DynamoDB",
+                "Pinecone",
+                "AI Matching"
+              ]
+            },
+            "zh": {
+              "title": "案件要件マッチングシステム",
+              "text": "基于Next.js 15和AWS无服务器架构构建的AI驱动Web应用，用于IT工程师候选人评估和项目匹配。利用Groq API (Qwen3-32B)、Pinecone向量搜索、DynamoDB和Cohere嵌入技术，根据项目的必备技能和优选资格智能匹配候选人。",
+              "tags": [
+                "Next.js",
+                "Groq API",
+                "AWS无服务器",
+                "DynamoDB",
+                "Pinecone",
+                "AI匹配"
+              ]
+            },
+            "ja": {
+              "title": "案件要件マッチングシステム",
+              "text": "Next.js 15とAWSサーバーレスアーキテクチャで構築されたAI搭載Webアプリケーションで、ITエンジニア候補者の評価とプロジェクトマッチングを行います。Groq API (Qwen3-32B)、Pineconeベクトル検索、DynamoDB、Cohere埋め込みを活用し、案件の必須スキルと歓迎スキルに基づいて候補者を知的にマッチングします。",
+              "tags": [
+                "Next.js",
+                "Groq API",
+                "AWSサーバーレス",
+                "DynamoDB",
+                "Pinecone",
+                "AIマッチング"
+              ]
+            },
+            "ko": {
+              "title": "후보자 매칭 시스템",
+              "text": "Next.js 15와 AWS 서버리스 아키텍처로 구축된 AI 기반 웹 애플리케이션으로, IT 엔지니어 후보자 평가 및 프로젝트 매칭을 수행합니다. Groq API (Qwen3-32B), Pinecone 벡터 검색, DynamoDB, Cohere 임베딩을 활용하여 프로젝트의 필수 기술과 우대 자격을 기반으로 후보자를 지능적으로 매칭합니다.",
+              "tags": [
+                "Next.js",
+                "Groq API",
+                "AWS 서버리스",
+                "DynamoDB",
+                "Pinecone",
+                "AI 매칭"
+              ]
+            }
+          }
+        },
+        {
+          "categoryId": "utilities",
+          "icon": {
             "img": "images/pictures/project-logo-4.jpg",
             "fa": "",
             "faColors": { "bg": null, "fill": null }
