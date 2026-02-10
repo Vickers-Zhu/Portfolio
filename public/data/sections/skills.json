@@ -228,22 +228,55 @@
         {
           "icon": {
             "img": null,
-            "fa": "fa-solid fa-gem",
-            "faColors": { "bg": "#CC0000", "fill": "#EEE" }
+            "fa": "fa-brands fa-python",
+            "faColors": { "bg": "#306998", "fill": "#EEE" }
           },
-          "value": 50,
-          "dates": { "start": "2024-10-01" },
+          "value": 90,
+          "dates": { "start": "2017-02-01" },
           "locales": {
             "en": {
-              "title": "Ruby",
-              "info": "Scripting and backend development tasks."
+              "title": "Python 3",
+              "info": "A versatile language for data and application tasks."
             },
-            "zh": { "title": "Ruby", "info": "后端开发任务的脚本编写。" },
+            "zh": {
+              "title": "Python 3",
+              "info": "适用于数据与应用程序任务的多功能语言。"
+            },
             "ja": {
-              "title": "Ruby",
-              "info": "バックエンド開発タスクのスクリプト作成。"
+              "title": "Python 3",
+              "info": "データとアプリケーションタスクに適した多機能言語。"
             },
-            "ko": { "title": "루비", "info": "백엔드 작업을 위한 스크립팅." }
+            "ko": {
+              "title": "Python 3",
+              "info": "데이터 및 애플리케이션 작업에 적합한 다목적 언어."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-leaf",
+            "faColors": { "bg": "#092E20", "fill": "#EEE" }
+          },
+          "value": 75,
+          "dates": { "start": "2024-02-01" },
+          "locales": {
+            "en": {
+              "title": "Django",
+              "info": "Building robust web backends with the Django framework."
+            },
+            "zh": {
+              "title": "Django",
+              "info": "使用 Django 框架构建稳健的 Web 后端。"
+            },
+            "ja": {
+              "title": "Django",
+              "info": "Django フレームワークによる堅牢な Web バックエンド開発。"
+            },
+            "ko": {
+              "title": "Django",
+              "info": "Django 프레임워크로 견고한 웹 백엔드 개발."
+            }
           }
         },
         {
@@ -318,28 +351,49 @@
         {
           "icon": {
             "img": null,
-            "fa": "fa-brands fa-python",
-            "faColors": { "bg": "#306998", "fill": "#EEE" }
+            "fa": "fa-solid fa-database",
+            "faColors": { "bg": "#336791", "fill": "#EEE" }
           },
-          "value": 90,
-          "dates": { "start": "2017-02-01" },
+          "value": 80,
+          "dates": { "start": "2025-02-01" },
           "locales": {
             "en": {
-              "title": "Python 3",
-              "info": "A versatile language for data and application tasks."
+              "title": "PostgreSQL",
+              "info": "Relational database design, querying, and optimization."
             },
             "zh": {
-              "title": "Python 3",
-              "info": "适用于数据与应用程序任务的多功能语言。"
+              "title": "PostgreSQL",
+              "info": "关系型数据库设计、查询与性能优化。"
             },
             "ja": {
-              "title": "Python 3",
-              "info": "データとアプリケーションタスクに適した多機能言語。"
+              "title": "PostgreSQL",
+              "info": "リレーショナルデータベースの設計、クエリ、最適化。"
             },
             "ko": {
-              "title": "Python 3",
-              "info": "데이터 및 애플리케이션 작업에 적합한 다목적 언어."
+              "title": "PostgreSQL",
+              "info": "관계형 데이터베이스 설계, 질의, 성능 최적화."
             }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-gem",
+            "faColors": { "bg": "#CC0000", "fill": "#EEE" }
+          },
+          "value": 50,
+          "dates": { "start": "2024-10-01" },
+          "locales": {
+            "en": {
+              "title": "Ruby",
+              "info": "Scripting and backend development tasks."
+            },
+            "zh": { "title": "Ruby", "info": "后端开发任务的脚本编写。" },
+            "ja": {
+              "title": "Ruby",
+              "info": "バックエンド開発タスクのスクリプト作成。"
+            },
+            "ko": { "title": "루비", "info": "백엔드 작업을 위한 스크립팅." }
           }
         },
         {
@@ -392,6 +446,33 @@
               "info": "현대 애플리케이션을 위한 유연한 NoSQL 데이터베이스."
             }
           }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-aws",
+            "faColors": { "bg": "#FF9900", "fill": "#111" }
+          },
+          "value": 55,
+          "dates": { "start": "2025-06-01" },
+          "locales": {
+            "en": {
+              "title": "DynamoDB",
+              "info": "AWS NoSQL data modeling and high-throughput access patterns."
+            },
+            "zh": {
+              "title": "DynamoDB",
+              "info": "AWS NoSQL 数据建模与高吞吐访问模式设计。"
+            },
+            "ja": {
+              "title": "DynamoDB",
+              "info": "AWS NoSQL のデータモデリングと高スループットアクセス設計。"
+            },
+            "ko": {
+              "title": "DynamoDB",
+              "info": "AWS NoSQL 데이터 모델링 및 고처리량 액세스 패턴 설계."
+            }
+          }
         }
       ]
     },
@@ -407,54 +488,6 @@
         "ko": { "title": "프론트엔드 개발" }
       },
       "items": [
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-brands fa-html5",
-            "faColors": { "bg": "#E34F26", "fill": "#EEE" }
-          },
-          "value": 95,
-          "dates": { "start": "2018-10-01" },
-          "locales": {
-            "en": {
-              "title": "HTML5",
-              "info": "Creating structured and responsive web content."
-            },
-            "zh": { "title": "HTML5", "info": "创建结构化和响应式网页内容。" },
-            "ja": {
-              "title": "HTML5",
-              "info": "構造化されたレスポンシブウェブコンテンツの作成。"
-            },
-            "ko": {
-              "title": "HTML5",
-              "info": "구조화되고 반응형 웹 콘텐츠 제작."
-            }
-          }
-        },
-        {
-          "icon": {
-            "img": null,
-            "fa": "fa-brands fa-css3",
-            "faColors": { "bg": "#1572B6", "fill": "#EEE" }
-          },
-          "value": 80,
-          "dates": { "start": "2018-10-01" },
-          "locales": {
-            "en": {
-              "title": "CSS3",
-              "info": "Styling websites for an enhanced user experience."
-            },
-            "zh": { "title": "CSS3", "info": "为网站设计提供更佳的用户体验。" },
-            "ja": {
-              "title": "CSS3",
-              "info": "ウェブサイトのスタイリングによるユーザー体験の向上。"
-            },
-            "ko": {
-              "title": "CSS3",
-              "info": "사용자 경험을 향상시키는 웹사이트 스타일링."
-            }
-          }
-        },
         {
           "icon": {
             "img": null,
@@ -479,6 +512,57 @@
             "ko": {
               "title": "JavaScript ES6+",
               "info": "동적이고 인터랙티브한 웹 애플리케이션 제작."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-mobile-screen-button",
+            "faColors": { "bg": "#02569B", "fill": "#EEE" }
+          },
+          "value": 80,
+          "dates": { "start": "2025-02-01" },
+          "locales": {
+            "en": {
+              "title": "Flutter",
+              "info": "Developing multi-platform apps with a unified UI framework."
+            },
+            "zh": {
+              "title": "Flutter",
+              "info": "使用统一 UI 框架开发多平台应用。"
+            },
+            "ja": {
+              "title": "Flutter",
+              "info": "統一 UI フレームワークによるマルチプラットフォーム開発。"
+            },
+            "ko": {
+              "title": "Flutter",
+              "info": "통합 UI 프레임워크로 멀티플랫폼 앱 개발."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-solid fa-code",
+            "faColors": { "bg": "#0175C2", "fill": "#EEE" }
+          },
+          "value": 60,
+          "dates": { "start": "2025-02-01" },
+          "locales": {
+            "en": {
+              "title": "Dart",
+              "info": "Building maintainable cross-platform application logic."
+            },
+            "zh": { "title": "Dart", "info": "构建可维护的跨平台应用逻辑。" },
+            "ja": {
+              "title": "Dart",
+              "info": "保守性の高いクロスプラットフォームアプリロジックの構築。"
+            },
+            "ko": {
+              "title": "Dart",
+              "info": "유지보수 가능한 크로스플랫폼 앱 로직 개발."
             }
           }
         },
@@ -533,6 +617,54 @@
             "ko": {
               "title": "Vue.js",
               "info": "경량화되고 확장 가능한 웹 애플리케이션 제작."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-html5",
+            "faColors": { "bg": "#E34F26", "fill": "#EEE" }
+          },
+          "value": 95,
+          "dates": { "start": "2018-10-01" },
+          "locales": {
+            "en": {
+              "title": "HTML5",
+              "info": "Creating structured and responsive web content."
+            },
+            "zh": { "title": "HTML5", "info": "创建结构化和响应式网页内容。" },
+            "ja": {
+              "title": "HTML5",
+              "info": "構造化されたレスポンシブウェブコンテンツの作成。"
+            },
+            "ko": {
+              "title": "HTML5",
+              "info": "구조화되고 반응형 웹 콘텐츠 제작."
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": null,
+            "fa": "fa-brands fa-css3",
+            "faColors": { "bg": "#1572B6", "fill": "#EEE" }
+          },
+          "value": 80,
+          "dates": { "start": "2018-10-01" },
+          "locales": {
+            "en": {
+              "title": "CSS3",
+              "info": "Styling websites for an enhanced user experience."
+            },
+            "zh": { "title": "CSS3", "info": "为网站设计提供更佳的用户体验。" },
+            "ja": {
+              "title": "CSS3",
+              "info": "ウェブサイトのスタイリングによるユーザー体験の向上。"
+            },
+            "ko": {
+              "title": "CSS3",
+              "info": "사용자 경험을 향상시키는 웹사이트 스타일링."
             }
           }
         },

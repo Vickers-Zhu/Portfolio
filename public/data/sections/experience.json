@@ -137,6 +137,108 @@
               "tags": ["교육", "창업", "멘토링"]
             }
           }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/place-8.jpeg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "06/01/2025",
+            "end": "07/01/2025"
+          },
+          "locales": {
+            "en": {
+              "title": "Full-Stack Engineer (Internal Platform)",
+              "info": "Colorful Inc., Tokyo, Japan",
+              "text": "Built an internal sales search platform with Next.js, AWS Lambda, and DynamoDB to retrieve project requirements and engineer profiles quickly. Implemented RAG-based retrieval using Pinecone, OpenAI, and Cohere, improving requirement matching accuracy and reducing manual coordination overhead.",
+              "tags": [
+                "Next.js",
+                "AWS Lambda",
+                "DynamoDB",
+                "Pinecone",
+                "OpenAI",
+                "Cohere"
+              ]
+            },
+            "zh": {
+              "title": "全栈工程师（内部平台）",
+              "info": "Colorful Inc.，日本东京",
+              "text": "基于 Next.js、AWS Lambda 和 DynamoDB 开发内部销售检索平台，实现项目需求与工程师信息的快速查询。通过 Pinecone、OpenAI 与 Cohere 构建 RAG 语义检索，提升需求匹配准确度并显著降低人工协同成本。",
+              "tags": [
+                "Next.js",
+                "AWS Lambda",
+                "DynamoDB",
+                "Pinecone",
+                "OpenAI",
+                "Cohere"
+              ]
+            },
+            "ja": {
+              "title": "フルスタックエンジニア（社内プラットフォーム）",
+              "info": "Colorful株式会社、東京 日本",
+              "text": "Next.js、AWS Lambda、DynamoDB を用いて、案件要件とエンジニア情報を迅速に検索できる社内営業支援プラットフォームを構築。Pinecone、OpenAI、Cohere による RAG 検索を実装し、要件マッチング精度を向上させ、手動調整の工数を削減しました。",
+              "tags": [
+                "Next.js",
+                "AWS Lambda",
+                "DynamoDB",
+                "Pinecone",
+                "OpenAI",
+                "Cohere"
+              ]
+            },
+            "ko": {
+              "title": "풀스택 엔지니어(내부 플랫폼)",
+              "info": "Colorful Inc., 일본 도쿄",
+              "text": "Next.js, AWS Lambda, DynamoDB를 활용해 프로젝트 요구사항과 엔지니어 프로필을 빠르게 조회하는 내부 영업 검색 플랫폼을 개발했습니다. Pinecone, OpenAI, Cohere 기반 RAG 검색을 구현해 매칭 정확도를 높이고 수동 협업 비용을 크게 줄였습니다.",
+              "tags": [
+                "Next.js",
+                "AWS Lambda",
+                "DynamoDB",
+                "Pinecone",
+                "OpenAI",
+                "Cohere"
+              ]
+            }
+          }
+        },
+        {
+          "icon": {
+            "img": "images/pictures/place-7.jpg",
+            "fa": "",
+            "faColors": { "bg": null, "fill": null }
+          },
+          "dates": {
+            "start": "07/01/2025",
+            "end": "04/01/2026"
+          },
+          "locales": {
+            "en": {
+              "title": "Application Engineer (POS Refactoring)",
+              "info": "Fuji Soft Inc., Kanagawa, Japan",
+              "text": "Refactored a legacy C-based POS system into a multi-platform Flutter architecture, redesigning low-level logic into maintainable object-oriented Dart modules. Standardized data definitions and device workflows across self-checkout modes, which reduced recurring finance-related defects and improved debugging and validation efficiency.",
+              "tags": ["Flutter", "Dart", "C", "POS System", "Refactoring"]
+            },
+            "zh": {
+              "title": "应用工程师（POS 重构）",
+              "info": "Fuji Soft Inc.，日本神奈川",
+              "text": "将遗留 C 语言 POS 系统重构为多平台 Flutter 架构，把底层指针与驱动相关逻辑重设计为可维护的面向对象 Dart 模块。统一全自助、半自助和人工辅助收银流程中的设备与数据定义，降低财务类缺陷复发并提升调试与验证效率。",
+              "tags": ["Flutter", "Dart", "C", "POS系统", "重构"]
+            },
+            "ja": {
+              "title": "アプリケーションエンジニア（POS リファクタリング）",
+              "info": "富士ソフト株式会社、神奈川 日本",
+              "text": "レガシーな C 言語ベースの POS システムをマルチプラットフォーム対応の Flutter アーキテクチャへ再構築し、低レベルロジックを保守性の高いオブジェクト指向 Dart モジュールへ整理。セルフレジ各運用モードでデータ定義とデバイスフローを統一し、財務関連不具合の再発を抑制しつつ、デバッグと検証効率を改善しました。",
+              "tags": ["Flutter", "Dart", "C", "POS", "リファクタリング"]
+            },
+            "ko": {
+              "title": "애플리케이션 엔지니어(POS 리팩터링)",
+              "info": "Fuji Soft Inc., 일본 가나가와",
+              "text": "레거시 C 기반 POS 시스템을 멀티플랫폼 Flutter 아키텍처로 리팩터링하고, 저수준 로직을 유지보수 가능한 객체지향 Dart 모듈로 재구성했습니다. 셀프 계산대 운영 모드 전반의 장치/데이터 흐름을 표준화해 재발성 재무 결함을 줄이고 디버깅 및 검증 효율을 높였습니다.",
+              "tags": ["Flutter", "Dart", "C", "POS 시스템", "리팩터링"]
+            }
+          }
         }
       ]
     }
