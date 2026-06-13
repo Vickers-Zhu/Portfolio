@@ -122,6 +122,105 @@
           }
         },
         {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-14.png",
+            "fa": "",
+            "faColors": { "bg": "#0D74CE", "fill": "#FFFFFF" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://echo.vickerstech.io/"
+            },
+            {
+              "faIcon": "fa-brands fa-apple",
+              "href": "https://testflight.apple.com/join/jd4KbeBe"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "9:16",
+              "images": [
+                "images/pictures/project-screenshot-8.png",
+                "images/pictures/project-screenshot-9.png",
+                "images/pictures/project-screenshot-10.png",
+                "images/pictures/project-screenshot-11.png",
+                "images/pictures/project-screenshot-12.png",
+                "images/pictures/project-screenshot-13.png",
+                "images/pictures/project-screenshot-14.png",
+                "images/pictures/project-screenshot-15.png"
+              ]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Echo",
+              "text": "An AI chat app for iOS and the web. Chat with leading AI models, save your best exchanges as shareable cards, and post them to a community feed.",
+              "tags": ["Flutter", "AI Chat", "iOS & Web", "Social"]
+            },
+            "zh": {
+              "title": "Echo",
+              "text": "一款 iOS 与网页端的 AI 聊天应用。与领先的 AI 模型对话，把精彩的对话保存为可分享的卡片，并发布到社区动态。",
+              "tags": ["Flutter", "AI 聊天", "iOS 与网页", "社交"]
+            },
+            "ja": {
+              "title": "Echo",
+              "text": "iOS とウェブ向けの AI チャットアプリ。先進的な AI モデルと会話し、残したいやり取りをカードとして保存・共有し、コミュニティに投稿できます。",
+              "tags": ["Flutter", "AI チャット", "iOS・ウェブ", "ソーシャル"]
+            },
+            "ko": {
+              "title": "Echo",
+              "text": "iOS와 웹을 위한 AI 채팅 앱입니다. 최고의 AI 모델과 대화하고, 마음에 드는 대화를 카드로 저장해 커뮤니티 피드에 공유하세요.",
+              "tags": ["Flutter", "AI 채팅", "iOS·웹", "소셜"]
+            }
+          }
+        },
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-15.jpg",
+            "fa": "",
+            "faColors": { "bg": "#6C5CE7", "fill": "#FFFFFF" }
+          },
+          "links": [],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "9:16",
+              "images": [
+                "images/pictures/project-screenshot-16.png",
+                "images/pictures/project-screenshot-17.png",
+                "images/pictures/project-screenshot-18.png",
+                "images/pictures/project-screenshot-19.png"
+              ]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "Animentor",
+              "text": "An AI-powered goal and habit mentor. Beyond simple tracking, Animentor remembers your goals, tells you the next concrete step, and encourages you past procrastination toward real progress.",
+              "tags": ["Flutter", "AI Coach", "Goals & Habits", "iOS"]
+            },
+            "zh": {
+              "title": "Animentor",
+              "text": "一款 AI 目标与习惯导师应用。不止于记录，Animentor 会记住你的目标、告诉你下一步该做什么，并在你拖延时鼓励你，推动你取得真实进展。",
+              "tags": ["Flutter", "AI 教练", "目标与习惯", "iOS"]
+            },
+            "ja": {
+              "title": "Animentor",
+              "text": "AI による目標・習慣メンターアプリ。記録するだけでなく、Animentor はあなたの目標を記憶し、次にやるべき一歩を示し、先延ばしを乗り越えて実際の前進へと後押しします。",
+              "tags": ["Flutter", "AI コーチ", "目標・習慣", "iOS"]
+            },
+            "ko": {
+              "title": "Animentor",
+              "text": "AI 기반 목표·습관 멘토 앱입니다. 단순 기록을 넘어 Animentor는 당신의 목표를 기억하고 다음에 할 구체적인 단계를 알려주며, 미루는 순간에도 실제 진전을 이루도록 격려합니다.",
+              "tags": ["Flutter", "AI 코치", "목표·습관", "iOS"]
+            }
+          }
+        },
+        {
           "categoryId": "utilities",
           "icon": {
             "img": "images/pictures/project-logo-13.png",
