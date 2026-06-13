@@ -72,58 +72,6 @@
         {
           "categoryId": "apps",
           "icon": {
-            "img": "images/pictures/project-logo-1.png",
-            "fa": "",
-            "faColors": { "bg": "#4CAF50", "fill": "#FFFFFF" }
-          },
-          "links": [
-            {
-              "faIcon": "fa-brands fa-github",
-              "href": "https://github.com/Vickers-Zhu/SeatMasterJS"
-            },
-            {
-              "faIcon": "fa-solid fa-link",
-              "href": "https://www.canva.com/design/DAGTbWeDwUU/-bxkJc8R5iJIFMBXm9L4OA/edit?utm_content=DAGTbWeDwUU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-            }
-          ],
-          "media": {
-            "youtubeVideo": null,
-            "screenshots": {
-              "aspectRatio": "16:9",
-              "images": [
-                "images/pictures/project-screenshot-1.png",
-                "images/pictures/project-screenshot-2.png",
-                "images/pictures/project-screenshot-3.png",
-                "images/pictures/project-screenshot-4.png"
-              ]
-            }
-          },
-          "locales": {
-            "en": {
-              "title": "SeatMasterJS",
-              "text": "An intuitive iOS app built with React Native for managing and reserving seats or tables in 3D. Enhance your event or venue management with a sleek design and user-friendly interaction.",
-              "tags": ["React Native", "Seat Management", "3D", "Reservation"]
-            },
-            "zh": {
-              "title": "SeatMasterJS",
-              "text": "一款基于React Native开发的直观iOS应用，支持3D管理和预定座位或桌子。通过简洁的设计和用户友好的交互，提升您的活动或场地管理体验。",
-              "tags": ["React Native", "座位管理", "3D", "预定"]
-            },
-            "ja": {
-              "title": "SeatMasterJS",
-              "text": "React Nativeで構築された3Dで座席やテーブルを管理・予約できる直感的なiOSアプリ。洗練されたデザインと使いやすい操作で、イベントや会場管理を強化します。",
-              "tags": ["React Native", "座席管理", "3D", "予約"]
-            },
-            "ko": {
-              "title": "SeatMasterJS",
-              "text": "React Native로 제작된 3D 좌석 및 테이블 관리 및 예약을 위한 직관적인 iOS 앱입니다. 세련된 디자인과 사용자 친화적인 인터페이스로 이벤트나 장소 관리를 향상시킵니다.",
-              "tags": ["React Native", "좌석 관리", "3D", "예약"]
-            }
-          }
-        },
-        {
-          "categoryId": "apps",
-          "icon": {
             "img": "images/pictures/project-logo-14.png",
             "fa": "",
             "faColors": { "bg": "#0D74CE", "fill": "#FFFFFF" }
@@ -217,6 +165,58 @@
               "title": "Animentor",
               "text": "AI 기반 목표·습관 멘토 앱입니다. 단순 기록을 넘어 Animentor는 당신의 목표를 기억하고 다음에 할 구체적인 단계를 알려주며, 미루는 순간에도 실제 진전을 이루도록 격려합니다.",
               "tags": ["Flutter", "AI 코치", "목표·습관", "iOS"]
+            }
+          }
+        },
+        {
+          "categoryId": "apps",
+          "icon": {
+            "img": "images/pictures/project-logo-1.png",
+            "fa": "",
+            "faColors": { "bg": "#4CAF50", "fill": "#FFFFFF" }
+          },
+          "links": [
+            {
+              "faIcon": "fa-brands fa-github",
+              "href": "https://github.com/Vickers-Zhu/SeatMasterJS"
+            },
+            {
+              "faIcon": "fa-solid fa-link",
+              "href": "https://www.canva.com/design/DAGTbWeDwUU/-bxkJc8R5iJIFMBXm9L4OA/edit?utm_content=DAGTbWeDwUU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+            }
+          ],
+          "media": {
+            "youtubeVideo": null,
+            "screenshots": {
+              "aspectRatio": "16:9",
+              "images": [
+                "images/pictures/project-screenshot-1.png",
+                "images/pictures/project-screenshot-2.png",
+                "images/pictures/project-screenshot-3.png",
+                "images/pictures/project-screenshot-4.png"
+              ]
+            }
+          },
+          "locales": {
+            "en": {
+              "title": "SeatMasterJS",
+              "text": "An intuitive iOS app built with React Native for managing and reserving seats or tables in 3D. Enhance your event or venue management with a sleek design and user-friendly interaction.",
+              "tags": ["React Native", "Seat Management", "3D", "Reservation"]
+            },
+            "zh": {
+              "title": "SeatMasterJS",
+              "text": "一款基于React Native开发的直观iOS应用，支持3D管理和预定座位或桌子。通过简洁的设计和用户友好的交互，提升您的活动或场地管理体验。",
+              "tags": ["React Native", "座位管理", "3D", "预定"]
+            },
+            "ja": {
+              "title": "SeatMasterJS",
+              "text": "React Nativeで構築された3Dで座席やテーブルを管理・予約できる直感的なiOSアプリ。洗練されたデザインと使いやすい操作で、イベントや会場管理を強化します。",
+              "tags": ["React Native", "座席管理", "3D", "予約"]
+            },
+            "ko": {
+              "title": "SeatMasterJS",
+              "text": "React Native로 제작된 3D 좌석 및 테이블 관리 및 예약을 위한 직관적인 iOS 앱입니다. 세련된 디자인과 사용자 친화적인 인터페이스로 이벤트나 장소 관리를 향상시킵니다.",
+              "tags": ["React Native", "좌석 관리", "3D", "예약"]
             }
           }
         },
